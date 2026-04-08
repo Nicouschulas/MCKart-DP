@@ -1,0 +1,395 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "menu.profile.track_stats.games_played",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].games_played",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.n_races_played",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].n_races_played",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.r_races_played",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].r_races_played",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.wins",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].wins",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "translate": "menu.profile.track_stats.cut",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        [
+          {
+            "translate": "menu.profile.track_stats.total_time",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time1[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.n_time_played",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time2[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.r_time_played",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time3[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.n_best_time",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time4[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " - ",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time6[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#4262AD",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.r_best_time",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time5[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " - ",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time7[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#4262AD",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        },
+        {
+          "translate": "menu.profile.track_stats.diff_ranked",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        [
+          {
+            "translate": "menu.profile.track_stats.diff_world_record",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "text": "-",
+            "color": "#FFC1BD",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "time8[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#FFC1BD",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "translate": "menu.profile.track_stats.cut",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        [
+          {
+            "translate": "menu.profile.track_stats.coins_total",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "coins",
+              "objective": "mck_temp"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.n_coins_collected",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].n_coins_collected",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " - ",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].n_a_coins_collected",
+            "storage": "minecraft:databases",
+            "interpret": false,
+            "color": "#4262AD",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.r_coins_collected",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].r_coins_collected",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " - ",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].r_a_coins_collected",
+            "storage": "minecraft:databases",
+            "interpret": false,
+            "color": "#4262AD",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+          "translate": "menu.profile.track_stats.cut",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        [
+          {
+            "translate": "menu.profile.track_stats.items_total",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "items",
+              "objective": "mck_temp"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.n_items_used",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].n_items_used",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " - ",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].n_a_items_used",
+            "storage": "minecraft:databases",
+            "color": "#4262AD",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.track_stats.r_items_used",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].r_items_used",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " - ",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.track_stats[0].r_a_items_used",
+            "storage": "minecraft:databases",
+            "color": "#4262AD",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        },
+        {
+          "translate": "menu.profile.track_stats.average",
+          "color": "#4262AD",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "replace": false
+    }
+  ]
+  

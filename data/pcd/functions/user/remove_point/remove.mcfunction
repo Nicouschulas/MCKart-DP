@@ -1,0 +1,1 @@
+$data remove storage pcd:workspace data.workspace[$(index)]

@@ -1,0 +1,43 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "menu.page.challenges.click",
+          "color": "#FFFDD1",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "translate": "menu.page.challenges.reward",
+          "color": "#FFEB99",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "temp",
+            "objective": "mck_temp"
+          },
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " \uaae0",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    }
+  ]
+  

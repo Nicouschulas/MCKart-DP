@@ -1,0 +1,1 @@
+$data modify storage pcd:workspace data set from storage pcd:database data[{name:$(name)}]

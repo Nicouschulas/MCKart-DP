@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:temp"
+      },
+      "ops": [
+        {
+          "source": "pos",
+          "target": "shell_trail",
+          "op": "append"
+        }
+      ]
+    }
+  ]
+  

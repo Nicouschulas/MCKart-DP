@@ -1,0 +1,1 @@
+$data modify storage databases goods[{data:{id:$(id)L}}].data set from storage databases input.data

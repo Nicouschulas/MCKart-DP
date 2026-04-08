@@ -1,0 +1,1 @@
+execute if score @s mck_audio_pack matches 0 run playsound minecraft:block.note_block.didgeridoo master @s[scores={mck_setting1=1}] ~ ~ ~ 2 0.6 1

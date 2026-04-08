@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{menu:1b}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "menu.profile.private",
+        "color": "#FFB6A3",
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "replace": true
+  }
+]

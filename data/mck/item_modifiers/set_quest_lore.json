@@ -1,0 +1,29 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        {
+          "translate": "challenges.title",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "lore1",
+          "storage": "minecraft:temp",
+          "interpret": true
+        },
+        {
+          "nbt": "lore2",
+          "storage": "minecraft:temp",
+          "interpret": true
+        }
+      ],
+      "replace": true
+    }
+  ]
+  

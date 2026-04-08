@@ -1,0 +1,9 @@
+execute if score lobby_loops mck_temp matches 9 run bossbar set nl9 visible false
+execute if score lobby_loops mck_temp matches 8 run bossbar set nl8 visible false
+execute if score lobby_loops mck_temp matches 7 run bossbar set nl7 visible false
+execute if score lobby_loops mck_temp matches 6 run bossbar set nl6 visible false
+execute if score lobby_loops mck_temp matches 5 run bossbar set nl5 visible false
+execute if score lobby_loops mck_temp matches 4 run bossbar set nl4 visible false
+execute if score lobby_loops mck_temp matches 3 run bossbar set nl3 visible false
+execute if score lobby_loops mck_temp matches 2 run bossbar set nl2 visible false
+execute if score lobby_loops mck_temp matches 1 run bossbar set nl1 visible false

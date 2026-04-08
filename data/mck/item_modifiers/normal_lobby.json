@@ -1,0 +1,224 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        [
+          {
+            "text": "  "
+          },
+          {
+            "translate": "menu.page.play.players",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": ":",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "nbt": "lobby[0].players[0].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[1].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[2].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[3].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[4].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[5].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[6].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[7].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[8].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[9].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[10].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "   -",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "lobby[0].players[11].name",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        }
+      ],
+      "replace": false
+    }
+  ]
+  

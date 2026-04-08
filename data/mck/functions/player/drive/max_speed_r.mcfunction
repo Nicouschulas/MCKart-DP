@@ -1,0 +1,1 @@
+execute if score @s mck_speed matches 121.. run scoreboard players set @s mck_speed 120

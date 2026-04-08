@@ -1,0 +1,5 @@
+scoreboard players operation #temp mck_db_bit = in mck_db_bit
+data remove storage temp args
+execute store result storage temp args.id long 1 run scoreboard players get #temp mck_db_bit
+
+#tellraw @p [{"score":{"name":".bit15","objective":"mck_db_bit"}},{"score":{"name":".bit14","objective":"mck_db_bit"}},{"score":{"name":".bit13","objective":"mck_db_bit"}},{"score":{"name":".bit12","objective":"mck_db_bit"}},{"score":{"name":".bit11","objective":"mck_db_bit"}},{"score":{"name":".bit10","objective":"mck_db_bit"}},{"score":{"name":".bit9","objective":"mck_db_bit"}},{"score":{"name":".bit8","objective":"mck_db_bit"}},{"score":{"name":".bit7","objective":"mck_db_bit"}},{"score":{"name":".bit6","objective":"mck_db_bit"}},{"score":{"name":".bit5","objective":"mck_db_bit"}},{"score":{"name":".bit4","objective":"mck_db_bit"}},{"score":{"name":".bit3","objective":"mck_db_bit"}},{"score":{"name":".bit2","objective":"mck_db_bit"}},{"score":{"name":".bit1","objective":"mck_db_bit"}},{"score":{"name":".bit0","objective":"mck_db_bit"}}]

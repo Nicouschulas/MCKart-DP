@@ -1,0 +1,1 @@
+execute unless score @s mck_tumble matches 1.. unless score @s mck_star matches 1.. unless score @s mck_drive_mode matches 1 run scoreboard players set @s mck_tumble 12

@@ -1,0 +1,65 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "  "
+        },
+        {
+          "translate": "menu.page.play.lobbybar.status",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "translate": "menu.page.play.lobbybar.ingame",
+          "color": "#73FFF6",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "  "
+        },
+        {
+          "translate": "menu.page.play.lobbybar.track",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "nbt": "lobby[0].track.tag.data.icon.tag.display.Name",
+          "storage": "minecraft:temp",
+          "interpret": true
+        }
+      ],
+      [
+        {
+          "text": "  "
+        },
+        {
+          "translate": "menu.page.play.lobbybar.timer",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "nbt": "time[]",
+          "storage": "minecraft:time",
+          "interpret": true,
+          "separator": "",
+          "color": "#73FFF6",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true
+  }
+]

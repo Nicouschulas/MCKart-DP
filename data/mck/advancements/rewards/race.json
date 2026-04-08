@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:gold_nugget",
+        "nbt": "{CustomModelData:109}"
+      },
+      "title": {
+        "translate": "toast.finished"
+      },
+      "description": "",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "mck:player/shop_toast"
+    }
+  }
+  

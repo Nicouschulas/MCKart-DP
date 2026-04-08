@@ -1,0 +1,22 @@
+execute unless score @s mck_page = @s mck_page run scoreboard players set @s mck_page 0
+execute unless score @s mck_menudelay = @s mck_menudelay run scoreboard players set @s mck_menudelay 0
+execute unless score @s mck_speed = @s mck_speed run scoreboard players set @s mck_speed 0
+execute unless score @s mck_grip = @s mck_grip run scoreboard players set @s mck_grip 6
+execute unless score @s mck_dir = @s mck_dir run scoreboard players set @s mck_dir 0
+execute unless score @s mck_boost = @s mck_boost run scoreboard players set @s mck_boost 0
+execute unless score @s mck_stun = @s mck_stun run scoreboard players set @s mck_stun 0
+execute unless score @s mck_drift = @s mck_drift run scoreboard players set @s mck_drift 0
+execute unless score @s mck_tracks_page = @s mck_tracks_page run scoreboard players set @s mck_tracks_page 1
+execute unless score @s mck_bank = @s mck_bank run scoreboard players set @s mck_bank 0
+execute unless score @s mck_kart_fragments = @s mck_kart_fragments run scoreboard players set @s mck_kart_fragments 0
+
+execute unless score @s mck_setting1 = @s mck_setting1 run scoreboard players set @s mck_setting1 1
+execute unless score @s mck_setting2 = @s mck_setting2 run scoreboard players set @s mck_setting2 1
+execute unless score @s mck_setting3 = @s mck_setting3 run scoreboard players set @s mck_setting3 1
+execute unless score @s mck_setting4 = @s mck_setting4 run scoreboard players set @s mck_setting4 1
+execute unless score @s mck_setting5 = @s mck_setting5 run scoreboard players set @s mck_setting5 1
+execute unless score @s mck_setting6 = @s mck_setting6 run scoreboard players set @s mck_setting6 1
+execute unless score @s mck_setting7 = @s mck_setting7 run scoreboard players set @s mck_setting7 1
+execute unless score @s mck_setting8 = @s mck_setting8 run scoreboard players set @s mck_setting8 1
+execute unless score @s mck_setting9 = @s mck_setting9 run scoreboard players set @s mck_setting9 1
+execute unless score @s mck_setting10 = @s mck_setting10 run scoreboard players set @s mck_setting10 1

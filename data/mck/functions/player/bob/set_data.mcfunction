@@ -1,0 +1,2 @@
+tellraw @s {"text":"[Click to change track data]","color":"gray","bold":true,"italic":false,"clickEvent":{"action":"suggest_command","value":"/data merge storage minecraft:bob {data:{ id:0b, loops:0b, maxtime:0L, safetime:0L, startangle:0.0f, music: {name:\"\", intro: 0, loop: 0} }}"}}
+clear @s paper{CustomModelData:-7203}

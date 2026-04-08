@@ -1,0 +1,28 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:140}"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "menu.page.spectate.no_race",
+            "color": "#DB7F7F",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+            "text": ""
+        }
+      ],
+      "replace": true
+    }
+  ]
+  

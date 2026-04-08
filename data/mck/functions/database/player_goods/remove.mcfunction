@@ -1,0 +1,1 @@
+$data remove storage databases player_goods[{data:{id:$(id)L}}]

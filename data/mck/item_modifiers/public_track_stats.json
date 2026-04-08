@@ -1,0 +1,168 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        [
+          {
+            "text": "----- ",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "translate": "menu.page.tracks.track.stats",
+            "color": "#DEDEDE",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": " -----",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "menu.page.tracks.track.n_games",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.n_times_played",
+            "storage": "minecraft:databases",
+            "color": "#DEDEDE",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.page.tracks.track.r_games",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.r_times_played",
+            "storage": "minecraft:databases",
+            "color": "#DEDEDE",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "menu.page.tracks.track.total",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "games",
+              "objective": "mck_temp"
+            },
+            "color": "#DEDEDE",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        },
+        {
+          "translate": "menu.page.tracks.track.best_normal",
+          "color": "#DEDEDE",
+          "bold": true,
+          "italic": false
+        },
+        [
+          {
+            "text": "- ",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.n_best.name",
+            "storage": "minecraft:databases",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "- ",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "time1[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        },
+        {
+          "translate": "menu.page.tracks.track.best_ranked",
+          "color": "#DEDEDE",
+          "bold": true,
+          "italic": false
+        },
+        [
+          {
+            "text": "- ",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.r_best.name",
+            "storage": "minecraft:databases",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "- ",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "time2[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          }
+        ]
+      ],
+      "replace": false
+    }
+  ]
+  

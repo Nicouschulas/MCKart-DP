@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " "
+      },
+      {
+        "translate": "menu.page.tracks.trackused",
+        "color": "red",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

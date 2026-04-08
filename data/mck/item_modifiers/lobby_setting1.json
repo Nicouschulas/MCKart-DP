@@ -1,0 +1,118 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:117}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mck_lobby_setting1",
+          "scale": 1
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "translate": "lobby.setting1.name",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": " [",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "translate": "lobby.setting1.option2",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "]",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mck_lobby_setting1",
+          "scale": 1
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "translate": "lobby.setting1.name",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": " [",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "translate": "lobby.setting1.option1",
+        "color": "red",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "]",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mck_lobby_setting1",
+          "scale": 1
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " "
+      },
+      {
+        "translate": "lobby.setting1.lore",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

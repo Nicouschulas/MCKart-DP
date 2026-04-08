@@ -1,0 +1,13 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "nbt": "name[]",
+        "storage": "minecraft:temp",
+        "interpret": true,
+        "separator": " "
+      }
+    }
+  ]
+  

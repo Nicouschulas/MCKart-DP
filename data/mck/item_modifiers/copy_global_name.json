@@ -1,0 +1,35 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+          {
+          "nbt": "output.data.head.tag.SkullOwner.Name",
+          "storage": "minecraft:databases",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "translate": "menu.short_profile.lvl",
+          "color": "#FFEBC4",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.mck_level",
+          "storage": "minecraft:databases",
+          "color": "#FFCE85",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " ✪",
+          "color": "#FFEBC4",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    }
+  ]
+  

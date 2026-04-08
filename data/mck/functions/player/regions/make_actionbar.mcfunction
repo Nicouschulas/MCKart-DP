@@ -1,0 +1,22 @@
+data remove storage temp actionbar
+
+
+execute if score @s mck_region matches 1 run data modify storage temp actionbar set value '{"translate":"region1","color":"#D1E2F0","bold":true}'
+execute if score @s mck_region matches 2 run data modify storage temp actionbar set value '{"translate":"region2","color":"#F0D1B6","bold":true}'
+execute if score @s mck_region matches 3 run data modify storage temp actionbar set value '{"translate":"region3","color":"#9DF097","bold":true}'
+execute if score @s mck_region matches 4 run data modify storage temp actionbar set value '{"translate":"region4","color":"#F0D478","bold":true}'
+execute if score @s mck_region matches 5 run data modify storage temp actionbar set value '{"translate":"region5","color":"#C0F04F","bold":true}'
+execute if score @s mck_region matches 6 run data modify storage temp actionbar set value '{"translate":"region6","color":"#F5D5F4","bold":true}'
+execute if score @s mck_region matches 7 run data modify storage temp actionbar set value '{"translate":"region7","color":"#B8DAF5","bold":true}'
+execute if score @s mck_region matches 8 run data modify storage temp actionbar set value '{"translate":"region8","color":"#D8F5B8","bold":true}'
+execute if score @s mck_region matches 9 run data modify storage temp actionbar set value '{"translate":"region9","color":"#F5B371","bold":true}'
+execute if score @s mck_region matches 10 run data modify storage temp actionbar set value '{"translate":"region10","color":"#E6BE9C","bold":true}'
+execute if score @s mck_region matches 11 run data modify storage temp actionbar set value '{"translate":"region11","color":"#FFEC40","bold":true}'
+execute if score @s mck_region matches 12 run data modify storage temp actionbar set value '{"translate":"region12","color":"#FCFFA1","bold":true}'
+execute if score @s mck_region matches 13 run data modify storage temp actionbar set value '{"translate":"region13","color":"#7D8EFF","bold":true}'
+execute if score @s mck_region matches 14 run data modify storage temp actionbar set value '{"translate":"region14","color":"#FFD89E","bold":true}'
+execute if score @s mck_region matches 15 run data modify storage temp actionbar set value '{"translate":"region15","color":"#B1FF9E","bold":true}'
+execute if score @s mck_region matches 16 run data modify storage temp actionbar set value '{"translate":"region16","color":"#BDFDFF","bold":true}'
+execute if score @s mck_region matches 17 run data modify storage temp actionbar set value '{"translate":"region17","color":"#FFFFFF","bold":true}'
+execute if score @s mck_region matches 18 run data modify storage temp actionbar set value '{"translate":"region18","color":"#FF8787","bold":true}'
+execute if score @s mck_region matches 19 run data modify storage temp actionbar set value '{"translate":"region19","color":"#CBF7F7","bold":true}'

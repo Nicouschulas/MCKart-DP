@@ -1,0 +1,118 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:164}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mck_setting7",
+          "scale": 1
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "translate": "settings7.name",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": " [",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "translate": "settings7.option2",
+        "color": "red",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "]",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mck_setting7",
+          "scale": 1
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "translate": "settings7.name",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": " [",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "translate": "settings7.option1",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "]",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mck_setting7",
+          "scale": 1
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " "
+      },
+      {
+        "translate": "settings7.lore",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

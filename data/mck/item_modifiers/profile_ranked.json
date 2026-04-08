@@ -1,0 +1,126 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "menu.profile.ranked.rank",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.stats.rank_name[]",
+            "storage": "minecraft:databases",
+            "interpret": true,
+            "separator": ""
+          }
+        ],
+        {
+            "text": ""
+        },
+        [
+          {
+            "text": " #",
+            "color": "white",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "place",
+              "objective": "mck_temp"
+            },
+            "color": "white",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "translate": "menu.profile.ranked.top",
+            "color": "gray",
+            "bold": false,
+            "italic": true
+          },
+          {
+            "score": {
+              "name": "result1",
+              "objective": "mck_temp"
+            },
+            "color": "gray",
+            "bold": false,
+            "italic": true
+          },
+          {
+            "text": ",",
+            "color": "gray",
+            "bold": false,
+            "italic": true
+          },
+          {
+            "score": {
+              "name": "result2",
+              "objective": "mck_temp"
+            },
+            "color": "gray",
+            "bold": false,
+            "italic": true
+          },
+          {
+            "text": "%",
+            "color": "gray",
+            "bold": false,
+            "italic": true
+          }
+        ],
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "menu.profile.ranked.rank_time",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "time1[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "white",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "menu.profile.ranked.next",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "nbt": "time2[]",
+            "storage": "minecraft:temp",
+            "interpret": true,
+            "separator": "",
+            "color": "#FFCDC9",
+            "bold": false,
+            "italic": false
+          }
+        ]
+      ],
+      "replace": true
+    }
+  ]
+  

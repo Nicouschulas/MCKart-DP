@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:temp"
+    },
+    "ops": [
+      {
+        "source": "players[0].SkullOwner",
+        "target": "SkullOwner",
+        "op": "merge"
+      },
+      {
+        "source": "players[0].display",
+        "target": "display",
+        "op": "merge"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+kill @e[type=text_display,tag=ranked_board_title,limit=1,sort=nearest,distance=..8]
+kill @e[type=text_display,tag=ranked_board_list,limit=1,sort=nearest,distance=..8]
+kill @e[type=item_display,tag=ranked_board_left,limit=1,sort=nearest,distance=..8]
+kill @e[type=item_display,tag=ranked_board_right,limit=1,sort=nearest,distance=..8]
+kill @e[type=interaction,tag=ranked_board_left_,limit=1,sort=nearest,distance=..8]
+kill @e[type=interaction,tag=ranked_board_right_,limit=1,sort=nearest,distance=..8]

@@ -1,0 +1,255 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " "
+      },
+      [
+        {
+          "translate": "menu.profile.stats.challenge_level",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "temp",
+          "storage": "minecraft:temp",
+          "interpret": true,
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+        "text": " "
+      },
+      [
+        {
+          "translate": "menu.profile.stats.games_played",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.games_played",
+          "storage": "minecraft:databases",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.n_races_played",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.n_races_played",
+          "storage": "minecraft:databases",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.r_races_played",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.r_races_played",
+          "storage": "minecraft:databases",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "text": "-----------------------------",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "translate": "menu.profile.stats.time_played",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "total[]",
+          "storage": "minecraft:temp",
+          "interpret": true,
+          "separator": "",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.n_time_played",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "time1[]",
+          "storage": "minecraft:temp",
+          "interpret": true,
+          "separator": "",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.r_time_played",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "time2[]",
+          "storage": "minecraft:temp",
+          "interpret": true,
+          "separator": "",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "text": "-----------------------------",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "translate": "menu.profile.stats.wins",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.wins",
+          "storage": "minecraft:databases",
+          "interpret": false,
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.tournaments_won",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.tournaments_won",
+          "storage": "minecraft:databases",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.shrooms_used",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.shrooms_used",
+          "storage": "minecraft:databases",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "text": "-----------------------------",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "translate": "menu.profile.stats.coins_collected",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.coins_collected",
+          "storage": "minecraft:databases",
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.coins_spent",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.coins_spent",
+          "storage": "minecraft:databases",
+          "interpret": false,
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate": "menu.profile.stats.kart_fragments_spent",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "output.data.stats.kart_fragments_spent",
+          "storage": "minecraft:databases",
+          "interpret": false,
+          "color": "#C9F1FF",
+          "bold": true,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false
+  }
+]

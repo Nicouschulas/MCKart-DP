@@ -1,0 +1,1 @@
+scoreboard players set @s mck_squid 160

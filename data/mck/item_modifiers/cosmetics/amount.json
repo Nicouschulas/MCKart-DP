@@ -1,0 +1,28 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": " "
+        },
+        [
+          {
+            "translate": "menu.page.cosmetics.amount",
+            "color": "#FFC59E",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "list[0].data.amount",
+            "storage": "minecraft:temp",
+            "color": "#FFEB6B",
+            "bold": true,
+            "italic": false
+          }
+        ]
+      ],
+      "replace": false
+    }
+  ]
+  

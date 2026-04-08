@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "  "
+        },
+        {
+          "translate": "menu.page.play.lobbybar.status",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "translate": "menu.page.play.lobbybar.full",
+          "color": "#FF995E",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      {
+        "text": ""
+      },
+      {
+        "text": ""
+      }
+    ],
+    "replace": true
+  }
+]

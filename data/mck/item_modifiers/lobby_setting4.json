@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "translate": "lobby.setting4.name",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "translate": "lobby.setting4.name",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": " "
+      },
+      {
+        "translate": "lobby.setting4.lore",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

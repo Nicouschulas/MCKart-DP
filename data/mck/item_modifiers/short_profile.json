@@ -1,0 +1,104 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": " "
+        },
+        [
+          {
+            "translate": "menu.profile.ranked.rank",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.stats.rank_name[]",
+            "storage": "minecraft:databases",
+            "interpret": true,
+            "separator": "",
+            "italic": false
+          }
+        ],
+        {
+          "text": " "
+        },
+        [
+          {
+            "translate": "menu.profile.stats.games_played",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "output.data.stats.games_played",
+            "storage": "minecraft:databases",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.profile.stats.time_played",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time[]",
+            "storage": "minecraft:time",
+            "interpret": true,
+            "separator": "",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "text": " "
+        },
+        {
+          "translate": "menu.short_profile.expand",
+          "color": "#FFE3A3",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "replace": true,
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "public"
+            },
+            "score": "mck_temp"
+          },
+          "range": 1
+        }
+      ]
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "mck:profile_private",
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "public"
+            },
+            "score": "mck_temp"
+          },
+          "range": 0
+        }
+      ]
+    }
+  ]
+  

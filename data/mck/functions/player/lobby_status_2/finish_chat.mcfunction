@@ -1,0 +1,4 @@
+tellraw @s ""
+execute if score bool mck_temp matches 0 run tellraw @s [{"text":"[","color":"gray","bold":true},{"translate":"system","color":"gold","bold":false},{"text":"] "},{"nbt":"name","storage":"temp","color":"white","bold":true,"italic":false},{"translate":"chat.alert.finished_race","color":"#D4D4D4","bold":false,"italic":false},{"nbt":"place","storage":"temp","interpret":true,"color":"white","bold":false,"italic":false}]
+execute if score bool mck_temp matches 1 run tellraw @s [{"text":"[","color":"gray","bold":true},{"translate":"system","color":"gold","bold":false},{"text":"] "},{"nbt":"name","storage":"temp","color":"white","bold":true,"italic":false,"interpret":true},{"translate":"chat.alert.finished_race","color":"#D4D4D4","bold":false,"italic":false},{"nbt":"place","storage":"temp","interpret":true,"color":"white","bold":false,"italic":false}]
+tellraw @s ""

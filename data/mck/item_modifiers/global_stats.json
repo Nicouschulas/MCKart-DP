@@ -1,0 +1,179 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": " "
+        },
+        [
+          {
+            "translate": "menu.global.stats.players",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "players",
+              "objective": "mck_community"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "text": " "
+        },
+        {
+            "translate": "menu.profile.track_stats.cut",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+        },
+        {
+          "text": " "
+        },
+        [
+          {
+            "translate": "menu.global.stats.playtime",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "nbt": "time[]",
+            "storage": "minecraft:time",
+            "interpret": true,
+            "separator": "",
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.global.stats.games",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "games_played",
+              "objective": "mck_community"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "text": " "
+        },
+        [
+          {
+            "translate": "menu.global.stats.normal_games",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "normal_games",
+              "objective": "mck_community"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.global.stats.ranked_games",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "ranked_games",
+              "objective": "mck_community"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "text": " "
+        },
+        {
+            "translate": "menu.profile.track_stats.cut",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+        },
+        {
+          "text": " "
+        },
+        [
+          {
+            "translate": "menu.global.stats.coins_collected",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "coins_collected",
+              "objective": "mck_community"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.global.stats.items_used",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "items_used",
+              "objective": "mck_community"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "menu.global.stats.shrooms_used",
+            "color": "gray",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "shrooms_used",
+              "objective": "mck_community"
+            },
+            "color": "#C9F1FF",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        {
+          "text": " "
+        }
+      ],
+      "replace": true
+    }
+  ]
+  

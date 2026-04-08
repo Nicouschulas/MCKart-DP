@@ -1,0 +1,8 @@
+function mck:player/regions/make_actionbar
+
+
+execute if score @s mck_parkour matches 1.. run scoreboard players operation time mck_time = @s mck_parkour
+execute if score @s mck_parkour matches 1.. run function mck:time/calc
+
+execute unless score @s mck_parkour matches 1.. run title @s[tag=!builder] actionbar [{"nbt":"actionbar","storage":"temp","interpret":true},{"text":"   "},{"translate":"actionbar.coins","color":"#FFE878","bold":true,"italic":false},{"score":{"name":"@s","objective":"mck_bank"},"color":"white"},{"text":" \uaae0","color":"white","bold": false},{"text":"   "},{"translate":"actionbar.kart_fragments","color":"#FF8C69"},{"score":{"name":"@s","objective":"mck_kart_fragments"},"color":"white"},{"text":" \uaae1","color":"white","bold": false}]
+execute if score @s mck_parkour matches 1.. if score @s mck_lobby matches 0 run title @s[tag=!builder] actionbar [{"nbt":"actionbar","storage":"temp","interpret":true},{"text":"   "},{"translate":"actionbar.coins","color":"#FFE878","bold":true,"italic":false},{"score":{"name":"@s","objective":"mck_bank"},"color":"white"},{"text":" \uaae0","color":"white","bold": false},{"text":"   "},{"translate":"actionbar.kart_fragments","color":"#FF8C69"},{"score":{"name":"@s","objective":"mck_kart_fragments"},"color":"white"},{"text":" \uaae1","color":"white","bold": false},{"text":"  +","color": "#D9FFAD"},{"nbt":"time[]","storage":"time","interpret":true,"color":"#D9FFAD","bold":false,"separator":""}]

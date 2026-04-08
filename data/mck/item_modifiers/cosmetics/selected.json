@@ -1,0 +1,18 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "translate": "menu.page.cosmetics.selected",
+            "color": "#B2FF91",
+            "bold": false,
+            "italic": true
+          }
+        ]
+      ],
+      "replace": false
+    }
+  ]
+  

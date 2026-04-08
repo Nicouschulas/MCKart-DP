@@ -1,0 +1,21 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:databases"
+      },
+      "ops": [
+        {
+          "source": "output.data.head.tag.SkullOwner",
+          "target": "SkullOwner",
+          "op": "replace"
+        },
+        {
+          "source": "output.data.name",
+          "target": "display.Name",
+          "op": "replace"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,41 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{menu:1b,killme:1b}"
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "selector": "@s",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "translate": "menu.short_profile.lvl",
+        "color": "#FFEBC4",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "nbt": "XpLevel",
+        "entity": "@s",
+        "color": "#FFCE85",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": " ✪",
+        "color": "#FFEBC4",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:reference",
+    "name": "mck:short_profile"
+  }
+]

@@ -1,0 +1,2 @@
+summon fox ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Type:"red",CanPickUpLoot:0b,Tags:["bot","temp"],HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:101,killme:1b}},{}],Passengers:[{id:"minecraft:item_display",Tags:["item_mount"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.6f,0f],scale:[2f,2f,2f]},teleport_duration:2,item:{id:"minecraft:air",Count:1b}}]}
+execute as @e[type=fox,tag=temp,limit=1,sort=nearest] at @s run function mck:bots/summon_scores

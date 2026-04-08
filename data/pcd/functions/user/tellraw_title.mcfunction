@@ -1,0 +1,1 @@
+$tellraw @s {"text":"[Click to change: Fadeout Title Settings]","color":"white","bold":true,"clickEvent":{"action":"suggest_command","value":"/function pcd:user/change_title {fadein:$(fadein), stay:$(stay), fadeout:$(fadeout) }"}}

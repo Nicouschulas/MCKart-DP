@@ -1,0 +1,41 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "text": "   ",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "@s",
+              "objective": "mck_challenge_level"
+            },
+            "color": "#998757",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "text": " ▶ ",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "temp",
+              "objective": "mck_temp"
+            },
+            "color": "#FFE191",
+            "bold": true,
+            "italic": false
+          }
+        ]
+      ]
+    }
+  ]
+  
