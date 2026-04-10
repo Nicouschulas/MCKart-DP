@@ -25,14 +25,16 @@
 
 ## 🛡️ **Commands & Permissions:**
 `/scoreboard players set @s mck_permission 3` | Make yourself admin to customize settings
+
 `/function admin:unlock_all_cosmetics` | Instantly access all skins and items
+
 `/function admin:hard_reset` | Completely reset player data for a fresh start
 
 ## **🌍 Supported Languages:**
 MCKart features **Custom Texts** that automatically adapt to each player's individual Minecraft language settings.
 ### **Supported Languages:**
 German (text + voice)
-Englisch (Text + voice)
+Englisch (text + voice)
 Japanese (text only)
 Chinese (text only)
 Russian (text only)
