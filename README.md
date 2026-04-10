@@ -47,3 +47,6 @@ This datapack is intended for use with the [MCKart-2.0 Map by SkyblockSquad](htt
 
 ## **🆘 Need Help?**
 If you encounter any problems, bugs, or have questions about the plugin, please don't hesitate to contact me directly. I'll be happy to take a look and provide support! Your positive experience is our priority.
+
+
+# THIS README AND REPO IS WIP
