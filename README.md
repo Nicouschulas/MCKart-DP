@@ -9,3 +9,6 @@ This datapack is intended for use with the MCKart-2.0 Map. You are free to fork 
 ## License
 
 MCKart-2.0 Datapack  © 2023 by SkyblockSquad is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
+
+## **🆘 Need Help?**
+If you encounter any problems, bugs, or have questions about the plugin, please don't hesitate to contact me directly. I'll be happy to take a look and provide support! Your positive experience is our priority.
