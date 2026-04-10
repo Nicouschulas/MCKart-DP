@@ -43,7 +43,7 @@ MCKart features **Custom Texts** that automatically adapt to each player's indiv
 - update to 26.x
 
 ## **📄  Usage & License:**
-This Datapack is originally from SkyblockSquad. As it has been discontinued I asked to to continue its development and got officially the right to update and work on this further. 
+This Datapack is originally from [SkyblockSquad](https://www.planetminecraft.com/server/skyblock-squad/). As it has been discontinued I asked to to continue its development and got officially the right to update and work on this further. 
 
 This datapack is intended for use with the [MCKart-2.0 Map by SkyblockSquad](https://www.planetminecraft.com/project/mario-kart-in-minecraft-mckart-2-0-1-20-4/). 
 
@@ -51,6 +51,3 @@ You are free to fork and adapt the Datapack under the terms of the license. MCKa
 
 ## **🆘 Need Help?**
 If you encounter any problems, bugs, or have questions about the plugin, please don't hesitate to contact me directly. I'll be happy to take a look and provide support! Your positive experience is our priority.
-
-
-# THIS README AND REPO IS WIP
