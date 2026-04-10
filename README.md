@@ -7,8 +7,11 @@
 
 ## **🌟 Key Features:**
 🏁 **Dynamic Game Modes**: Choose between **Normal Mode** for casual fun with friends or **Ranked Mode** to fight for world records and prestige.
+
 🏎️ **Advanced Drifting Mechanic**: Master our custom drifting system to build up speed and unleash powerful **speed boosts** to overtake your opponents.
+
 🎁 **Cosmetics & Lootboxes**: Collect **Kart Fragments** and coins to buy unique skins and items from the shop, or try your luck with the integrated lootbox system.
+
 🗺️ **Explorable World**: Take a break from racing to explore a breathtaking island on foot or by kart, uncovering **hidden secrets** tucked away in every corner.
 
 ## **🎮 How to Play:**
