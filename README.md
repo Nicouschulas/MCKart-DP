@@ -15,18 +15,18 @@
 🗺️ **Explorable World**: Take a break from racing to explore a breathtaking island on foot or by kart, uncovering **hidden secrets** tucked away in every corner
 
 ## **🎮 How to Play:**
- * **From a Lobby**: Group up with up to **11 friends** (12 players total) to race together
+**From a Lobby**: Group up with up to **11 friends** (12 players total) to race together. The rest get replaced with AI opponent's 
 
- * **Vote for Tracks**: Choose the next destination (or use **Super Votes** from the shop to rig the results!)
+**Vote for Tracks**: Choose the next destination (or use **Super Votes** from the shop to rig the results!)
 
- * **Starting Boost**: Hold **'W'** exactly when the countdown timer hits **2** for a head start
+**Starting Boost**: Hold **'W'** exactly when the countdown timer hits **2** for a head start
 
- * **Item Boxes**: Collect power-ups during the race to gain items
+**Item Boxes**: Collect power-ups during the race to gain items
 
 ## 🛡️ **Commands & Permissions:**
-/scoreboard players set @s mck_permission 3 | Make yourself admin to customize settings.
-/function admin:unlock_all_cosmetics | Instantly access all skins and items.
-/function admin:hard_reset | Completely reset player data for a fresh start.
+`/scoreboard players set @s mck_permission 3` | Make yourself admin to customize settings
+`/function admin:unlock_all_cosmetics` | Instantly access all skins and items
+`/function admin:hard_reset` | Completely reset player data for a fresh start
 
 ## **🌍 Supported Languages:**
 MCKart features **Custom Texts** that automatically adapt to each player's individual Minecraft language settings.
