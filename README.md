@@ -39,12 +39,6 @@ Japanese (text only)
 Chinese (text only)
 Russian (text only)
 
-## **🆘 Need Help?**
-If you run into bugs or have suggestions for new tracks and mechanics, join our Discord or contact the SkyBlockSquad team. We are constantly updating to keep the engines roaring!
-
-
-
-
 ## MCKart-2.0 Datapack
 
 The MCKart-2.0 Datapack is part of the [MCKart-2.0 *Map* (JE 1.20.4)](https://www.planetminecraft.com/project/mario-kart-in-minecraft-mckart-2-0-1-20-4/).
