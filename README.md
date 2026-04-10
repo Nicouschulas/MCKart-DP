@@ -32,12 +32,12 @@
 
 ## **🌍 Supported Languages:**
 MCKart features **Custom Texts** that automatically adapt to each player's individual Minecraft language settings.
-### **Supported Languages:**
-German (text + voice)
-Englisch (text + voice)
-Japanese (text only)
-Chinese (text only)
-Russian (text only)
+
+- German (text + voice)
+- Englisch (text + voice)
+- Japanese (text only)
+- Chinese (text only)
+- Russian (text only)
 
 ## **📆 Planned features:**
 - update to 1.20.5/6
