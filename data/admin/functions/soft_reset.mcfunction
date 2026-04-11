@@ -1,5 +1,3 @@
-scoreboard players reset * mck_id
-scoreboard players reset * mck_community
 data modify storage lobby races set value []
 data modify storage tracks used set value []
 
@@ -7,7 +5,9 @@ data modify storage databases parkour.best_name set value "---"
 data modify storage databases parkour.best_time set value 999999999
 function mck:parkour/update
 
-data remove storage databases players
+data remove storage minecraft:databases players[{data:{public:0b}}]
+
+# world records
 data remove storage databases tracks
 
 #resets spawn mannequins

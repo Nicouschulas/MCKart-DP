@@ -1,7 +1,14 @@
 scoreboard players set @s mck_scene 0
 scoreboard players set @s mck_scene_anim 0
 stopsound @s
+scoreboard players reset @s pcd.id
+
+title @s times 0 30 20
+title @s subtitle "\ue000"
+title @s title "\uaab7"
+
 tp @s -264.5 75 -44.5 180 0
+gamemode adventure @s
 function mck:player/show_menu
 effect clear @s invisibility
 
@@ -17,7 +24,6 @@ tag @s remove phone_bar
 
 execute if score @s mck_challenge_level matches 1 if score @s mck_quest2 matches 0.. run scoreboard players add @s mck_quest2 1
 function mck:player/challenges/reached
-
 
 scoreboard players set @s mck_region 14
 execute at @s run function mck:player/regions/play
