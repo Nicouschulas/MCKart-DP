@@ -195,21 +195,7 @@ scoreboard objectives add mck_force_reset dummy
 scoreboard objectives add mck_reset_timer dummy
 
 
-execute unless score automenudelay mck_admin_settings = automenudelay mck_admin_settings run scoreboard players set automenudelay mck_admin_settings 1
-execute unless score maxplayersnormal mck_admin_settings = maxplayersnormal mck_admin_settings run scoreboard players set maxplayersnormal mck_admin_settings 9
-execute unless score maxplayersranked mck_admin_settings = maxplayersranked mck_admin_settings run scoreboard players set maxplayersranked mck_admin_settings 3
-execute unless score botcount mck_admin_settings = botcount mck_admin_settings run scoreboard players set botcount mck_admin_settings 5
-execute unless score coinrespawn mck_admin_settings = coinrespawn mck_admin_settings run scoreboard players set coinrespawn mck_admin_settings 6
-execute unless score itemrespawn mck_admin_settings = itemrespawn mck_admin_settings run scoreboard players set itemrespawn mck_admin_settings 2
-execute unless score time_per_rank mck_admin_settings = time_per_rank mck_admin_settings run scoreboard players set time_per_rank mck_admin_settings 60
-execute unless score ranking_list_update mck_admin_settings = ranking_list_update mck_admin_settings run scoreboard players set ranking_list_update mck_admin_settings 18000
-execute unless score coin_multiplier_length mck_admin_settings = coin_multiplier_length mck_admin_settings run scoreboard players set coin_multiplier_length mck_admin_settings 18000
-execute unless score drive_tick_rate mck_admin_settings = drive_tick_rate mck_admin_settings run scoreboard players set drive_tick_rate mck_admin_settings 1
-execute unless score allow_free_drive mck_admin_settings = allow_free_drive mck_admin_settings run scoreboard players set allow_free_drive mck_admin_settings 1
-
-scoreboard players set is.singleplayer mck_admin_settings 0
-
-
+function mck:set_admin_settings
 
 function mck:bossbar/add
 
@@ -447,7 +433,7 @@ schedule function mck:lobby/loop 1s
 schedule clear mck:coin_multiplier/on_sec
 schedule function mck:coin_multiplier/on_sec 1s
 
-data modify storage databases version set value ['{"text":"                        Ver. ","color":"#94A6FF","bold":false,"italic":false}','{"text":"1.0.1","color":"#CFDDFF","bold":true,"italic":false}']
+data modify storage databases version set value ['{"text":"                        Ver. ","color":"#94A6FF","bold":false,"italic":false}','{"text":"1.0.2","color":"#CFDDFF","bold":true,"italic":false}']
 
 tellraw @a [{"text":"[","color":"#949494","bold":true},{"text":"MCKart 2.0","color":"#FFD321"},{"text":"] ","color":"#949494"},{"translate":"datapack.reloaded","color":"#C9C9C9","bold":false}]
 
