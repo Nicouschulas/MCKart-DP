@@ -40,7 +40,7 @@ MCKart features **Custom Texts** that automatically adapt to each player's indiv
 - Russian (text only)
 
 ## **📆 Planned features:**
-- update to 1.20.5/6
+- update to 1.20.5/6 (currently WIP)
 - update to 1.21.x
 - update to 26.x
 
