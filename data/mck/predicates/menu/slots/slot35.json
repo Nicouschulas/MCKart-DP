@@ -5,7 +5,15 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:player",
-      "nbt": "{Inventory:[{Slot:35b}]}"
+      "components": {
+        "Inventory": [
+          {
+            "slot": 35,
+            "id": "minecraft:diamond_sword",
+            "count": 1
+          }
+        ]
+      }
     }
   }
 }

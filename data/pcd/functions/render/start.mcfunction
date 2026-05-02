@@ -12,12 +12,12 @@ execute store result bossbar pcd.render max run scoreboard players get #t_max pc
 
 schedule clear pcd:render/thread
 
-execute unless data storage pcd:temp render_points[1] run tellraw @s {"text":"Need a second point for rendering a camera path!","color":"#FF6969","bold":false,"italic":false}
+execute unless data storage pcd:temp render_points[1] components:run tellraw @s {"text":"Need a second point for rendering a camera path!","color":"#FF6969","bold":false,"italic":false}
 execute unless data storage pcd:temp render_points[1] at @s run playsound minecraft:block.note_block.didgeridoo master @s ~ ~ ~ 1 0.4 1
 
-execute if score #t_max pcd.math matches ..0 run tellraw @s {"text":"Set a higher time for the camera path!","color":"#FF6969","bold":false,"italic":false}
+execute if score #t_max pcd.math matches ..0 components:run tellraw @s {"text":"Set a higher time for the camera path!","color":"#FF6969","bold":false,"italic":false}
 execute if score #t_max pcd.math matches ..0 at @s run playsound minecraft:block.note_block.didgeridoo master @s ~ ~ ~ 1 0.4 1
-execute if score #t_max pcd.math matches ..0 run data remove storage pcd:temp render_points
+execute if score #t_max pcd.math matches ..0 components:run data remove storage pcd:temp render_points
 
-execute if data storage pcd:temp render_points[1] run bossbar set pcd.render players @a[scores={pcd.enable=1}]
-execute if data storage pcd:temp render_points[1] run function pcd:render/thread
+execute if data storage pcd:temp render_points[1] components:run bossbar set pcd.render players @a[scores={pcd.enable=1}]
+execute if data storage pcd:temp render_points[1] components:run function pcd:render/thread

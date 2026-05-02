@@ -1,1 +1,1 @@
-summon item ~ ~ ~ {PickupDelay:32767,Motion:[0.0,0.4,0.0],Tags:["bomb"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1011}}}
+summon item ~ ~ ~ {PickupDelay:32767,Motion:[0.0,0.4,0.0],Tags:["bomb"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,components:{minecraft:custom_model_data:1011}}}

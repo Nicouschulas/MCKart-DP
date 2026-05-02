@@ -5,7 +5,7 @@ execute unless data storage tracks selections[0] run function mck:track/get_rng
 
 item replace block 0 0 0 container.0 with paper 1
 item modify block 0 0 0 container.0 mck:rng_1_64
-execute store result score temp mck_temp run data get block 0 0 0 Items[0].Count
+execute store result score temp mck_temp run data get block 0 0 0 Items[0].count
 function mck:lobby/sel_track/get_rng
 
 # Error falls wirklich keine gefunden werden kann

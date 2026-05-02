@@ -1,4 +1,4 @@
-summon item 0 0 0 {NoGravity:1b,Age:-6000,PickupDelay:32767,Invulnerable:1b,Tags:["coin","temp"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Coin"}'},CustomModelData:1000}}}
+summon item 0 0 0 {NoGravity:1b,Age:-6000,PickupDelay:32767,Invulnerable:1b,Tags:["coin","temp"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,components:{minecraft:item_name:'{"text":"Coin"}',minecraft:custom_model_data:1000}}}
 scoreboard players operation @e[tag=temp,type=item] mck_id = lobbyraceid mck_temp
 scoreboard players operation @e[tag=temp,type=item] mck_lobby = lobbyid mck_temp
 

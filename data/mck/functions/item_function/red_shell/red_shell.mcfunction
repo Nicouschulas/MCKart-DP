@@ -4,7 +4,6 @@ scoreboard players reset red_id mck_temp
 scoreboard players remove temp2 mck_temp 1
 execute as @e[scores={mck_lobby_status=2,mck_place=..11}] if score @s mck_lobby = temp mck_temp if score @s mck_place = temp2 mck_temp unless score red_id mck_temp = red_id mck_temp unless score @s mck_red_id = @s mck_red_id run function mck:item_function/red_shell/victim
 
-
 execute unless score red_id mck_temp = red_id mck_temp run scoreboard players remove temp2 mck_temp 1
 execute unless score red_id mck_temp = red_id mck_temp run execute as @e[scores={mck_lobby_status=2,mck_place=..11}] if score @s mck_lobby = temp mck_temp if score @s mck_place = temp2 mck_temp unless score red_id mck_temp = red_id mck_temp unless score @s mck_red_id = @s mck_red_id run function mck:item_function/red_shell/victim
 

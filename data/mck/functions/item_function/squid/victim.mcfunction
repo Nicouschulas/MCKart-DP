@@ -8,9 +8,7 @@ execute if score @s mck_squid matches 81..125 run particle minecraft:squid_ink ~
 execute if score @s mck_squid matches 41..80 run particle minecraft:squid_ink ~ ~0.8 ~ 0.3 0.5 0.3 0 4
 execute if score @s mck_squid matches 0..40 run particle minecraft:squid_ink ~ ~0.8 ~ 0.3 0.5 0.3 0 1
 
-
 execute if entity @s[tag=bot] if score @s mck_squid matches ..125 if score @s mck_speed matches 106.. run scoreboard players set @s mck_speed 105
-
 
 scoreboard players remove @s mck_squid 1
 execute if score @s mck_squid matches ..0 run scoreboard players reset @s mck_squid

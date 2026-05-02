@@ -3,7 +3,7 @@
       "function": "minecraft:set_name",
       "entity": "this",
       "name": {
-        "nbt": "name[]",
+        "nbt": "components:[{text:\"\"}]",
         "storage": "minecraft:temp",
         "interpret": true,
         "separator": ""

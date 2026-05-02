@@ -1,4 +1,4 @@
-data modify storage pcd:temp temp set from entity @s item.tag
+data modify storage pcd:temp temp set from entity @s item.components
 scoreboard players add @s pcd.render 1
 
 execute if score @s pcd.render matches 2..10 run data modify entity @s teleport_duration set value 10
@@ -32,6 +32,6 @@ execute unless data storage pcd:temp temp.render[0] if data storage pcd:temp tem
 execute unless data storage pcd:temp temp.render[0] if data storage pcd:temp temp.load[0] run function pcd:camera/new_data with storage pcd:temp name
 
 
-data modify entity @s item.tag set from storage pcd:temp temp
+data modify entity @s item.components set from storage pcd:temp temp
 execute unless data storage pcd:temp temp.render[0] unless data storage pcd:temp temp.load[0] run function pcd:camera/end
 execute if score #bool pcd.temp matches 1 run kill @s

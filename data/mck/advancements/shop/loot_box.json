@@ -1,5 +1,5 @@
 {
-    "display": {
+    "components": {
       "icon": {
         "item": "minecraft:totem_of_undying"
       },
@@ -21,4 +21,3 @@
       "function": "mck:player/shop_toast"
     }
   }
-  

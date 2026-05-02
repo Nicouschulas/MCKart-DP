@@ -1,8 +1,6 @@
 tag @s add temp
 scoreboard players set bool mck_temp 1
 
-
-
 scoreboard players operation time mck_time = @s mck_timer
 function mck:time/calc
 

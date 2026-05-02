@@ -3,9 +3,7 @@
       "function": "minecraft:set_lore",
       "entity": "this",
       "lore": [
-        {
-          "text": ""
-        },
+        "",
         [
           {
             "text": "----- ",
@@ -26,9 +24,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         [
           {
             "translate": "menu.page.tracks.track.n_games",
@@ -59,9 +55,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         [
           {
             "translate": "menu.page.tracks.track.total",
@@ -79,9 +73,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         {
           "translate": "menu.page.tracks.track.best_normal",
           "color": "#DEDEDE",
@@ -120,9 +112,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         {
           "translate": "menu.page.tracks.track.best_ranked",
           "color": "#DEDEDE",
@@ -165,4 +155,3 @@
       "replace": false
     }
   ]
-  

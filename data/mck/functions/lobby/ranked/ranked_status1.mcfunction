@@ -11,10 +11,8 @@ execute if score lobbystarttime mck_temp matches 2 run function mck:track/set_li
 execute if score lobbystarttime mck_temp matches 1 run function mck:track/set_lights_1
 execute if score lobbystarttime mck_temp matches 0 run function mck:track/set_lights_go
 
-
 execute if score lobbystarttime mck_temp matches 0 run data modify storage temp recording set from storage lobby ranked[0].recording
 execute if score lobbystarttime mck_temp matches 0 if data storage temp recording[0] run function mck:recordings/open/add
-
 
 execute if score lobbystarttime mck_temp matches 0 run scoreboard players set lobbystatus mck_temp 2
 execute if score lobbystarttime mck_temp matches 0 store result score lobbygametime mck_temp run data get storage lobby ranked[0].track.tag.data.maxtime

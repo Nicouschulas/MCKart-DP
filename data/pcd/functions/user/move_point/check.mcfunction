@@ -14,7 +14,6 @@ scoreboard players operation #dis pcd.temp += #z pcd.temp
 execute if score #dis pcd.temp < #length pcd.temp run scoreboard players operation #index pcd.temp = #i pcd.temp
 execute if score #dis pcd.temp < #length pcd.temp run scoreboard players operation #length pcd.temp = #dis pcd.temp
 
-
 data remove storage pcd:temp list[0]
 scoreboard players add #i pcd.temp 1
 execute if data storage pcd:temp list[0] run function pcd:user/move_point/check

@@ -7,7 +7,6 @@ execute if data storage ranklist best.id as @a if score @s mck_id = player_id mc
 execute if data storage ranklist best.id if score online mck_temp matches 0 run function mck:ranklist/sort/update_offline
 data modify storage ranklist best set value {rank_time:100000000}
 
-
 execute store result score sorting mck_timer run data get storage ranklist sortlist
 
 execute if score sorting mck_timer matches 0 run data modify storage ranklist list append from storage ranklist sortedlist

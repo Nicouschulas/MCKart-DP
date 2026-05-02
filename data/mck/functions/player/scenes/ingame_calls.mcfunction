@@ -27,9 +27,6 @@ execute if score @s mck_manager_call matches -100 if score @s mck_setting9 match
 
 execute if score @s mck_manager_call matches -1 run tag @s remove phone_bar
 
-
-
-
 execute if score @s mck_manager_call matches 19 run playsound custom:ringtone master @s ~ ~ ~ 1 1
 execute if score @s mck_manager_call matches 95 run stopsound @s master custom:ringtone
 execute if score @s mck_manager_call matches 96 run playsound custom:ringtone.pickup master @s ~ ~ ~ 1 1
@@ -47,7 +44,5 @@ execute if score @s mck_manager_call matches 510 if score @s mck_setting9 matche
 execute if score @s mck_manager_call matches 510 if score @s mck_setting9 matches 1 run playsound custom:en.win.manager master @s[scores={mck_setting1=1}]
 execute if score @s mck_manager_call matches 610 run tag @s remove phone_bar
 execute if score @s mck_manager_call matches 610 run scoreboard players set @s mck_manager_call -1
-
-
 
 scoreboard players add @s mck_manager_call 1

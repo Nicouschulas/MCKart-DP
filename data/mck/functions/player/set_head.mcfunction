@@ -1,6 +1,6 @@
 item replace block 0 0 0 container.0 with player_head
-item modify block 0 0 0 container.0 mck:set_playerhead
-item modify block 0 0 0 container.0 mck:set_playerhead
+item modify block 0 0 0 container.0 minecraft:set_playerhead
+item modify block 0 0 0 container.0 minecraft:set_playerhead
 item replace entity @s enderchest.1 from block 0 0 0 container.0
 
 scoreboard players operation in mck_db_bit = @s mck_id

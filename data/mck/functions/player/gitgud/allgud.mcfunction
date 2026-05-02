@@ -8,8 +8,7 @@ execute store result storage databases output.data.amount int 1 run scoreboard p
 data modify storage databases input set from storage databases output
 function mck:database/player_good_set
 
-item modify entity @s enderchest.5 mck:player_goods_set
-
+item modify entity @s enderchest.5 minecraft:item_name={text:"Player Goods"} minecraft:lore=[{"text":"Contains player goods","color":"gray"}] minecraft:custom_model_data=1234 minecraft:unbreakable={}
 
 execute if score @s mck_goods_id matches 6.. if score group mck_temp matches 1 run advancement grant @s only mck:shop/kart_skin
 execute if score @s mck_goods_id matches 6.. if score group mck_temp matches 2 run advancement grant @s only mck:shop/coin_multiplier

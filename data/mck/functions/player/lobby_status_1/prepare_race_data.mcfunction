@@ -2,17 +2,17 @@ item replace block 0 0 0 container.0 with paper 1
 
 execute if score @s mck_status matches 2 run function mck:player/spectate/leave
 
-data modify block 0 0 0 Items[0].tag.checkpoints set from entity @s EnderItems[2].tag.data.checkpoints
-data modify block 0 0 0 Items[0].tag.modes set from entity @s EnderItems[2].tag.data.modes
-execute store result block 0 0 0 Items[0].tag.maxcheckpoints int 1 run scoreboard players get checkpoints mck_temp
-execute store result block 0 0 0 Items[0].tag.rounds int 1 run data get entity @s EnderItems[2].tag.data.loops
-execute store result block 0 0 0 Items[0].tag.safetime int 1 run data get entity @s EnderItems[2].tag.data.safetime
-data modify block 0 0 0 Items[0].tag.checkpoint_times set value []
-data modify block 0 0 0 Items[0].tag.last_pos set from storage temp startpos[0]
-data modify block 0 0 0 Items[0].tag.last_rot set from entity @s EnderItems[2].tag.data.startangle
+data modify block 0 0 0 Items[0].components.checkpoints set from entity @s EnderItems[2].tag.data.checkpoints
+data modify block 0 0 0 Items[0].components.modes set from entity @s EnderItems[2].tag.data.modes
+execute store result block 0 0 0 Items[0].components.maxcheckpoints int 1 run scoreboard players get checkpoints mck_temp
+execute store result block 0 0 0 Items[0].components.rounds int 1 run data get entity @s EnderItems[2].tag.data.loops
+execute store result block 0 0 0 Items[0].components.safetime int 1 run data get entity @s EnderItems[2].tag.data.safetime
+data modify block 0 0 0 Items[0].components.checkpoint_times set value []
+data modify block 0 0 0 Items[0].components.last_pos set from storage temp startpos[0]
+data modify block 0 0 0 Items[0].components.last_rot set from entity @s EnderItems[2].tag.data.startangle
 
-data modify block 0 0 0 Items[0].tag.best_name set from storage temp best_name
-data modify block 0 0 0 Items[0].tag.best_time set from storage temp best_time
+data modify block 0 0 0 Items[0].components.best_name set from storage temp best_name
+data modify block 0 0 0 Items[0].components.best_time set from storage temp best_time
 
 item replace entity @s enderchest.3 from block 0 0 0 container.0
 
@@ -20,7 +20,7 @@ item replace entity @s enderchest.3 from block 0 0 0 container.0
 
 function mck:player/stats/track_stats/find
 item replace block 0 0 0 container.0 from entity @s enderchest.3
-data modify block 0 0 0 Items[0].tag.p_checkpoint_times set from entity @s EnderItems[2].tag.track_stats.checkpoint_times
+data modify block 0 0 0 Items[0].components.p_checkpoint_times set from entity @s EnderItems[2].tag.track_stats.checkpoint_times
 item replace entity @s enderchest.3 from block 0 0 0 container.0
 
 

@@ -16,7 +16,6 @@ execute if score @s mck_scene_anim matches 2 if score @s mck_challenge_level mat
 execute if score @s mck_scene_anim matches 2 run function mck:player/challenges/reached
 execute if score @s mck_scene_anim matches 2 run function mck:player/show_menu
 
-
 execute if score @s mck_scene_anim matches 2 run scoreboard players operation @s mck_goods_id = lootbox.id mck_goods_id
 execute if score @s mck_scene_anim matches 2 run function mck:player/gitgud/gitgud
 

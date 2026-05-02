@@ -1,1 +1,1 @@
-item replace entity @s armor.head from entity @s enderchest.26
+item replace entity @s armor.head with item[minecraft:ender_chest] from entity @s enderchest.26

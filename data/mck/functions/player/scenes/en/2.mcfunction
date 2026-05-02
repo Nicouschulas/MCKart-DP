@@ -17,11 +17,4 @@ execute if score @s mck_scene_anim matches 160..200 run title @s actionbar {"tra
 execute if score @s mck_scene_anim matches 100..160 run title @s actionbar {"translate":"subtitles.manager6","color":"#DEDEDE","bold":false,"italic":false}
 execute if score @s mck_scene_anim matches 20..100 run title @s actionbar {"translate":"subtitles.manager7","color":"#DEDEDE","bold":false,"italic":false}
 
-execute if score @s mck_scene_anim matches 22 run scoreboard players set @s mck_scene 8
-execute if score @s mck_scene_anim matches 22 run function mck:player/scenes/start
-execute if score @s mck_scene_anim matches 22 run tag @s remove phone_bar
-execute if score @s mck_scene_anim matches 22.. run scoreboard players set @s mck_region_timer 1200
-
-
-
 execute if score @s mck_scene matches 7 if score @s mck_scene_anim matches 2.. run scoreboard players remove @s mck_scene_anim 1

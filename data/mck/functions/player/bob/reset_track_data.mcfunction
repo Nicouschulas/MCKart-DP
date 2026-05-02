@@ -1,2 +1,2 @@
 data remove storage bob data
-clear @s barrier{CustomModelData:-7201}
+clear @s barrier[minecraft:custom_model_data=-7201]

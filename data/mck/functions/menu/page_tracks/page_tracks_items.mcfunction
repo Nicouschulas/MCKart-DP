@@ -1,5 +1,5 @@
-item replace entity @s inventory.21 with gold_nugget{display:{Name:'{"translate":"menu.page.tracks.left","color":"gray","bold":true,"italic":false}'},CustomModelData:113,menu:1b,killme:1b} 1
-item replace entity @s inventory.23 with gold_nugget{display:{Name:'{"translate":"menu.page.tracks.right","color":"gray","bold":true,"italic":false}'},CustomModelData:114,menu:1b,killme:1b} 1
+item replace entity @s inventory.21 with gold_nugget[minecraft:item_name='{"translate":"menu.page.tracks.left","color":"gray","bold":true,"italic":false}',minecraft:custom_model_data=113,menu:1b,killme:1b] 1
+item replace entity @s inventory.23 with gold_nugget[minecraft:item_name='{"translate":"menu.page.tracks.right","color":"gray","bold":true,"italic":false}',minecraft:custom_model_data=114,menu:1b,killme:1b] 1
 
 scoreboard players operation temp mck_temp = @s mck_tracks_page
 scoreboard players remove temp mck_temp 1
@@ -32,12 +32,12 @@ execute if score temp2 mck_temp matches ..2 run item replace entity @s inventory
 execute if score temp2 mck_temp matches ..1 run item replace entity @s inventory.10 with carved_pumpkin{display:{Name:'{"text":" "}'},menu:1b,killme:1b}
 execute if score temp2 mck_temp matches ..0 run item replace entity @s inventory.9 with carved_pumpkin{display:{Name:'{"text":" "}'},menu:1b,killme:1b}
 
-item replace entity @s inventory.26 with gold_nugget{display:{Name:'{"translate":"menu.page.tracks.random","color":"#FFCEBD","bold":true,"italic":false}',Lore:['{"text":" "}','{"translate":"menu.page.tracks.random_lore1","color":"gray","bold":false,"italic":false}','{"translate":"menu.page.tracks.random_lore2","color":"gray","bold":false,"italic":false}']},CustomModelData:132,killme:1b} 1
+item replace entity @s inventory.26 with gold_nugget[minecraft:item_name='{"translate":"menu.page.tracks.random","color":"#FFCEBD","bold":true,"italic":false}',minecraft:lore=['{"text":" "}','{"translate":"menu.page.tracks.random_lore1","color":"gray","bold":false,"italic":false}','{"translate":"menu.page.tracks.random_lore2","color":"gray","bold":false,"italic":false}'],minecraft:custom_model_data=132,killme:1b] 1
 
 
 execute store result score temp mck_temp run data get entity @s EnderItems[5].tag.player_goods[{data:{group:3b}}].data.amount
-item replace entity @s inventory.18 with gold_nugget{display:{Name:'{"translate":"menu.page.tracks.super_vote","color":"#FFDF3D","bold":true,"italic":false}',Lore:['{"text":" "}','{"translate":"menu.page.tracks.super_vote_lore1","color":"gray","bold":false,"italic":false}']},CustomModelData:149,killme:1b} 1
+item replace entity @s inventory.18 with gold_nugget[minecraft:item_name='{"translate":"menu.page.tracks.super_vote","color":"#FFDF3D","bold":true,"italic":false}',minecraft:lore=['{"text":" "}','{"translate":"menu.page.tracks.super_vote_lore1","color":"gray","bold":false,"italic":false}'],minecraft:custom_model_data=149,killme:1b] 1
 scoreboard players operation temp2 mck_temp = @s mck_super_vote
 item modify entity @s inventory.18 mck:super_votes_amount
 
-item replace entity @s inventory.4 with gold_nugget{display:{Name:'{"text":" "}'},CustomModelData:10002,killme:1b} 1
+item replace entity @s inventory.4 with gold_nugget[minecraft:item_name='{"text":" "}',minecraft:custom_model_data=10002,killme:1b] 1

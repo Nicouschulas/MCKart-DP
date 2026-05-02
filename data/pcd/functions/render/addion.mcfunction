@@ -5,6 +5,6 @@ $execute at @s run tp @s ~$(x) ~$(y) ~$(z)
 #! = {sentity @s Pos}
 
 data modify storage pcd:temp pos set from entity @s Pos
-execute at @s run particle end_rod ~ ~ ~ 0 0 0 0 1
+execute at @s run particle minecraft:end_rod ~ ~ ~ 0 0 0 0 1
 
 kill @s

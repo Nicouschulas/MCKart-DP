@@ -1,1 +1,1 @@
-$tellraw @s {"text":"[Click to save]","color":"white","bold":true,"clickEvent":{"action":"suggest_command","value":"/function pcd:user/save {name:\"$(name)\"}"}}
+{"text":"[Click to save]","color":"white","bold":true,"clickEvent":{"action":"suggest_command","value":"/function pcd:user/save {name:\"$(name)\"}"}}

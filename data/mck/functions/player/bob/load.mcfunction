@@ -1,3 +1,3 @@
-data modify storage bob data set from entity @s SelectedItem.tag.data
+data modify storage bob data set from entity @s SelectedItem.components
 
-clear @s feather{CustomModelData:-7212}
+clear @s feather{minecraft:custom_model_data:-7212}

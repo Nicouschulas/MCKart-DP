@@ -1,6 +1,6 @@
 execute if score bool mck_temp matches 1 run gamemode spectator
 execute if score bool mck_temp matches 1 run spectate
-execute if score bool mck_temp matches 1 run spectate @e[type=item_display,tag=temp,limit=1,sort=nearest]
+execute if score bool mck_temp matches 1 run spectate @e[type=item_display,nbt={Item:{tag:{temp:1b}}},limit=1,sort=nearest]
 
 execute if score bool mck_temp matches 1 run scoreboard players operation @s mck_track = spectator_track mck_track
 

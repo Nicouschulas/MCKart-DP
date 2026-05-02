@@ -8,7 +8,7 @@ execute store result storage databases output.data.amount int 1 run scoreboard p
 data modify storage databases input set from storage databases output
 function mck:database/player_good_set
 
-item modify entity @s enderchest.5 mck:player_goods_set
+item modify entity @s enderchest.5 minecraft:item_name=mck:player_goods_set
 
 function mck:menu/page_cosmetics/menu_goods
 

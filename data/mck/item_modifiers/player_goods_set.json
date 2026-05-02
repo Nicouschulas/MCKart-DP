@@ -3,7 +3,7 @@
       "function": "minecraft:copy_nbt",
       "source": {
         "type": "minecraft:storage",
-        "source": "minecraft:databases"
+        "name": "minecraft:databases"
       },
       "ops": [
         {
@@ -14,4 +14,3 @@
       ]
     }
   ]
-  

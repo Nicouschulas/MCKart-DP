@@ -2,37 +2,37 @@ scoreboard players set cmd mck_temp -152545423
 data modify storage temp list set from entity @s EnderItems[5].tag.menu_goods
 data modify storage temp list1 set value []
 
-execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 if data storage temp list[0] store result score cmd mck_temp run data get storage temp list[0].data.icon.tag.CustomModelData
-execute if score slot mck_temp matches 1 if data storage temp list[1] store result score cmd mck_temp run data get storage temp list[1].data.icon.tag.CustomModelData
-execute if score slot mck_temp matches 2 if data storage temp list[2] store result score cmd mck_temp run data get storage temp list[2].data.icon.tag.CustomModelData
-execute if score slot mck_temp matches 3 if data storage temp list[3] store result score cmd mck_temp run data get storage temp list[3].data.icon.tag.CustomModelData
-execute if score slot mck_temp matches 4 if data storage temp list[4] store result score cmd mck_temp run data get storage temp list[4].data.icon.tag.CustomModelData
-execute if score slot mck_temp matches 5 if data storage temp list[5] store result score cmd mck_temp run data get storage temp list[5].data.icon.tag.CustomModelData
-execute if score slot mck_temp matches 6 if data storage temp list[6] store result score cmd mck_temp run data get storage temp list[6].data.icon.tag.CustomModelData
+execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 run data get storage temp list[0].data.icon.tag.CustomModelData store result score cmd mck_temp
+execute if score slot mck_temp matches 1 run data get storage temp list[1].data.icon.tag.CustomModelData store result score cmd mck_temp
+execute if score slot mck_temp matches 2 run data get storage temp list[2].data.icon.tag.CustomModelData store result score cmd mck_temp
+execute if score slot mck_temp matches 3 run data get storage temp list[3].data.icon.tag.CustomModelData store result score cmd mck_temp
+execute if score slot mck_temp matches 4 run data get storage temp list[4].data.icon.tag.CustomModelData store result score cmd mck_temp
+execute if score slot mck_temp matches 5 run data get storage temp list[5].data.icon.tag.CustomModelData store result score cmd mck_temp
+execute if score slot mck_temp matches 6 run data get storage temp list[6].data.icon.tag.CustomModelData store result score cmd mck_temp
 
-execute if score @s mck_player_menu matches 2 if score slot mck_temp matches 4 if data storage temp list[0] store result score cmd mck_temp run data get storage temp list[0].data.icon.tag.CustomModelData
+execute if score @s mck_player_menu matches 2 if score slot mck_temp matches 4 run data get storage temp list[0].data.icon.tag.CustomModelData store result score cmd mck_temp
 
-execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 if data storage temp list[0].data.children[0] run data modify storage temp list1 set from storage temp list[0].data.children
-execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 if data storage temp list[0].data.children[0] store result storage temp temp int 1 run data get storage temp list[0].data.id
-execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 if data storage temp list[0].data.children[0] run data modify storage temp list1 prepend from storage temp temp
-execute if score slot mck_temp matches 1 if data storage temp list[1].data.children[0] run data modify storage temp list1 set from storage temp list[1].data.children
-execute if score slot mck_temp matches 1 if data storage temp list[1].data.children[0] store result storage temp temp int 1 run data get storage temp list[1].data.id
-execute if score slot mck_temp matches 1 if data storage temp list[1].data.children[0] run data modify storage temp list1 prepend from storage temp temp
-execute if score slot mck_temp matches 2 if data storage temp list[2].data.children[0] run data modify storage temp list1 set from storage temp list[2].data.children
-execute if score slot mck_temp matches 2 if data storage temp list[2].data.children[0] store result storage temp temp int 1 run data get storage temp list[2].data.id
-execute if score slot mck_temp matches 2 if data storage temp list[2].data.children[0] run data modify storage temp list1 prepend from storage temp temp
-execute if score slot mck_temp matches 3 if data storage temp list[3].data.children[0] run data modify storage temp list1 set from storage temp list[3].data.children
-execute if score slot mck_temp matches 3 if data storage temp list[3].data.children[0] store result storage temp temp int 1 run data get storage temp list[3].data.id
-execute if score slot mck_temp matches 3 if data storage temp list[3].data.children[0] run data modify storage temp list1 prepend from storage temp temp
-execute if score slot mck_temp matches 4 if data storage temp list[4].data.children[0] run data modify storage temp list1 set from storage temp list[4].data.children
-execute if score slot mck_temp matches 4 if data storage temp list[4].data.children[0] store result storage temp temp int 1 run data get storage temp list[4].data.id
-execute if score slot mck_temp matches 4 if data storage temp list[4].data.children[0] run data modify storage temp list1 prepend from storage temp temp
-execute if score slot mck_temp matches 5 if data storage temp list[5].data.children[0] run data modify storage temp list1 set from storage temp list[5].data.children
-execute if score slot mck_temp matches 5 if data storage temp list[5].data.children[0] store result storage temp temp int 1 run data get storage temp list[5].data.id
-execute if score slot mck_temp matches 5 if data storage temp list[5].data.children[0] run data modify storage temp list1 prepend from storage temp temp
-execute if score slot mck_temp matches 6 if data storage temp list[6].data.children[0] run data modify storage temp list1 set from storage temp list[6].data.children
-execute if score slot mck_temp matches 6 if data storage temp list[6].data.children[0] store result storage temp temp int 1 run data get storage temp list[6].data.id
-execute if score slot mck_temp matches 6 if data storage temp list[6].data.children[0] run data modify storage temp list1 prepend from storage temp temp
+execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 run data modify storage temp list1 set from storage temp list[0].data.children
+execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 run data get storage temp list[0].data.id store result storage temp temp int 1
+execute unless score @s mck_player_menu matches 2 if score slot mck_temp matches 0 run data modify storage temp list1 prepend from storage temp temp
+execute if score slot mck_temp matches 1 run data modify storage temp list1 set from storage temp list[1].data.children
+execute if score slot mck_temp matches 1 run data get storage temp list[1].data.id store result storage temp temp int 1
+execute if score slot mck_temp matches 1 run data modify storage temp list1 prepend from storage temp temp
+execute if score slot mck_temp matches 2 run data modify storage temp list1 set from storage temp list[2].data.children
+execute if score slot mck_temp matches 2 run data get storage temp list[2].data.id store result storage temp temp int 1
+execute if score slot mck_temp matches 2 run data modify storage temp list1 prepend from storage temp temp
+execute if score slot mck_temp matches 3 run data modify storage temp list1 set from storage temp list[3].data.children
+execute if score slot mck_temp matches 3 run data get storage temp list[3].data.id store result storage temp temp int 1
+execute if score slot mck_temp matches 3 run data modify storage temp list1 prepend from storage temp temp
+execute if score slot mck_temp matches 4 run data modify storage temp list1 set from storage temp list[4].data.children
+execute if score slot mck_temp matches 4 run data get storage temp list[4].data.id store result storage temp temp int 1
+execute if score slot mck_temp matches 4 run data modify storage temp list1 prepend from storage temp temp
+execute if score slot mck_temp matches 5 run data modify storage temp list1 set from storage temp list[5].data.children
+execute if score slot mck_temp matches 5 run data get storage temp list[5].data.id store result storage temp temp int 1
+execute if score slot mck_temp matches 5 run data modify storage temp list1 prepend from storage temp temp
+execute if score slot mck_temp matches 6 run data modify storage temp list1 set from storage temp list[6].data.children
+execute if score slot mck_temp matches 6 run data get storage temp list[6].data.id store result storage temp temp int 1
+execute if score slot mck_temp matches 6 run data modify storage temp list1 prepend from storage temp temp
 
 execute if data storage temp list1[0] run scoreboard players set cmd mck_temp -152545423
 execute if data storage temp list1[0] run function mck:menu/page_cosmetics/child/get

@@ -2,7 +2,7 @@
     {
       "function": "minecraft:set_lore",
       "entity": "this",
-      "lore": [
+      "components": [
         [
           {
             "translate": "menu.page.cosmetics.selected",
@@ -15,4 +15,3 @@
       "replace": false
     }
   ]
-  

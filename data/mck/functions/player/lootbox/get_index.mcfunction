@@ -1,1 +1,1 @@
-$data modify storage temp temp set from storage lootboxes win[$(index)]
+$data modify storage temp temp set from storage lootboxes win[index]

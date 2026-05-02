@@ -2,7 +2,8 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "nbt": "{RootVehicle:{Entity:{id:\"minecraft:fox\"}}}"
+        "components": {
+            "RootVehicle.Entity.id": "minecraft:fox"
+        }
     }
-  }
-  
+}

@@ -1,6 +1,6 @@
 item replace block 0 0 0 container.1 with paper
-data modify block 0 0 0 Items[{Slot:1b}].id set from storage databases output.data.track_stats[0].icon.id
-data modify block 0 0 0 Items[{Slot:1b}].tag set from storage databases output.data.track_stats[0].icon.tag
+data modify block 0 0 0 Items[0].id set from storage databases output.data.track_stats[0].icon.id
+data modify block 0 0 0 Items[0].components set from storage databases output.data.track_stats[0].icon.components
 
 
 execute store result score time mck_time run data get storage databases output.data.track_stats[0].n_time_played
@@ -67,7 +67,7 @@ scoreboard players operation items mck_temp += temp mck_temp
 execute if score has_record mck_temp matches 0 run item modify block 0 0 0 container.1 mck:profile_track_stats
 execute if score has_record mck_temp matches 1 run item modify block 0 0 0 container.1 mck:_profile_track_stats
 
-data modify block 0 0 0 Items[{Slot:1b}].tag.killme set value 1b
+data modify block 0 0 0 Items[0].components.killme set value 1b
 execute if score tracks_show mck_temp matches 7 run item replace entity @s inventory.19 from block 0 0 0 container.1
 execute if score tracks_show mck_temp matches 6 run item replace entity @s inventory.20 from block 0 0 0 container.1
 execute if score tracks_show mck_temp matches 5 run item replace entity @s inventory.21 from block 0 0 0 container.1

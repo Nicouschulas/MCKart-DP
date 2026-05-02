@@ -7,7 +7,6 @@ execute if score @s mck_star matches 0..140 unless score @s mck_brake matches 1.
 execute if score @s mck_star matches 0..140 if entity @s[tag=!bot] on vehicle at @s as @e[type=fox,distance=0.01..2] if score @s mck_speed matches 81.. run scoreboard players set @s mck_speed 80
 execute if score @s mck_star matches 0..140 if entity @s[tag=bot] as @e[type=fox,distance=0.01..2] if score @s mck_speed matches 81.. run scoreboard players set @s mck_speed 80
 
-
 scoreboard players remove @s mck_star 1
 
 execute if score @s mck_star matches ..0 run scoreboard players reset @s mck_star

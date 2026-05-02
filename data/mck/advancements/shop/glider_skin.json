@@ -1,8 +1,8 @@
 {
-    "display": {
+    "components": {
       "icon": {
         "item": "minecraft:gold_nugget",
-        "nbt": "{CustomModelData:145}"
+        "nbt": "{custom_model_data:145}"
       },
       "title": {
         "translate": "toast.new.glider_skin"
@@ -22,4 +22,3 @@
       "function": "mck:player/shop_toast"
     }
   }
-  

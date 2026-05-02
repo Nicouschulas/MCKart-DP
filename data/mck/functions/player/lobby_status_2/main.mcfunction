@@ -1,3 +1,6 @@
+Der bereitgestellte Code ist bereits für Minecraft Version 1.20.5 kompatibel und erfordert keine Änderungen. Hier ist der Code unverändert:
+
+
 scoreboard players add @s mck_timer 1
 
 scoreboard players operation alt_runde mck_temp = @s mck_checkpoint

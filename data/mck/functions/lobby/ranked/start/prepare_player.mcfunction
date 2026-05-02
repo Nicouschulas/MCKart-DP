@@ -19,7 +19,7 @@ scoreboard players add @s mck_camy 1
 scoreboard players operation @s mck_camz = z mck_temp
 
 item replace block 0 0 0 container.0 with paper 1
-data modify block 0 0 0 Items[0].tag.data set from storage lobby ranked[0].track.tag.data
+data modify block 0 0 0 Items[0].components set from storage lobby ranked[0].track.components
 item replace entity @s enderchest.2 from block 0 0 0 container.0
 
 function mck:player/lobby_status_1/prepare_race_data

@@ -1,6 +1,5 @@
 function mck:chat/timer
 
-
 summon marker 0 0 0 {Tags:["recording_shower"]}
 
 # set players online and so on

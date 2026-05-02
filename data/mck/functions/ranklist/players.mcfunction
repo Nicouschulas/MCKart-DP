@@ -16,5 +16,3 @@ execute if data storage ranklist players[0] run function mck:ranklist/process_pl
 execute if data storage ranklist players[0] run function mck:ranklist/process_players/process
 execute if data storage ranklist players[0] run function mck:ranklist/process_players/process
 execute if data storage ranklist players[0] run function mck:ranklist/process_players/process
-execute if data storage ranklist players[0] run function mck:ranklist/process_players/process
-execute if data storage ranklist players[0] run function mck:ranklist/process_players/process

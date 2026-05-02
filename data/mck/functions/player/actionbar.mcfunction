@@ -1,6 +1,5 @@
 function mck:player/regions/make_actionbar
 
-
 execute if score @s mck_parkour matches 1.. run scoreboard players operation time mck_time = @s mck_parkour
 execute if score @s mck_parkour matches 1.. run function mck:time/calc
 

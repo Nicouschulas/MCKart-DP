@@ -19,7 +19,6 @@ execute if score @s mck_scene_anim matches 680..740 run title @s actionbar {"tra
 execute if score @s mck_scene_anim matches 630..680 run title @s actionbar {"translate":"subtitles.narrator5","color":"#DEDEDE","bold":false,"italic":false}
 execute if score @s mck_scene_anim matches 620..630 run title @s actionbar {"translate":"subtitles.narrator6","color":"#DEDEDE","bold":false,"italic":false}
 
-
 execute if score @s mck_scene_anim matches 2 run scoreboard players reset @s pcd.id
 execute if score @s mck_scene_anim matches 2 run gamemode adventure @s
 execute if score @s mck_scene_anim matches 2 run scoreboard players set @s mck_scene 7

@@ -3,9 +3,7 @@
       "function": "minecraft:set_lore",
       "entity": "this",
       "lore": [
-        {
-          "text": ""
-        },
+        "",
         [
           {
             "translate": "menu.profile.track_stats.games_played",
@@ -187,9 +185,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         {
           "translate": "menu.profile.track_stats.diff_ranked",
           "color": "gray",
@@ -279,7 +275,6 @@
           {
             "nbt": "output.data.track_stats[0].r_a_coins_collected",
             "storage": "minecraft:databases",
-            "interpret": false,
             "color": "#4262AD",
             "bold": false,
             "italic": false
@@ -364,9 +359,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         {
           "translate": "menu.profile.track_stats.average",
           "color": "#4262AD",
@@ -377,4 +370,3 @@
       "replace": false
     }
   ]
-  

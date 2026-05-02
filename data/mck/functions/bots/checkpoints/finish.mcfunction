@@ -13,8 +13,6 @@ execute if score @s mck_place matches 11 run data modify storage temp place set 
 execute if score @s mck_place matches 12 run data modify storage temp place set value '{"text":"\\uab12"}'
 execute on passengers if entity @s[tag=puppet] run data modify storage temp name set from entity @s CustomName
 
-
-
 scoreboard players operation temp mck_temp = @s mck_lobby
 scoreboard players operation temp2 mck_temp = @s mck_track
 scoreboard players set bool mck_temp 1

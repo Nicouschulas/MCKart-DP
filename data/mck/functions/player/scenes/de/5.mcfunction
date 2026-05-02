@@ -24,19 +24,19 @@ execute if score @s mck_scene_anim matches 770..790 run title @s actionbar {"tra
 execute if score @s mck_scene_anim matches 739 if entity @s[x=-2000219,y=101,z=173,dx=5,dy=3,dz=3] run scoreboard players set @s mck_scene_anim 738
 execute if score @s mck_scene_anim matches 738 run playsound custom:itemrolling master @s ~ ~ ~ 1 1
 execute if score @s mck_scene_anim matches 738 run playsound minecraft:block.stone.break master @s ~ ~ ~ 3 2
-execute if score @s mck_scene_anim matches 738 run particle minecraft:scrape -2000216.48 102.00 174.47 0.4 0.4 0.4 2 20
+execute if score @s mck_scene_anim matches 738 run particle minecraft:dust{color:[0,0,0],scale:1.0} -2000216.48 102.00 174.47 0.4 0.4 0.4 2 20
 execute if score @s mck_scene_anim matches 738 run item replace block 0 0 0 container.0 from entity @s enderchest.3
-execute if score @s mck_scene_anim matches 738 run data modify block 0 0 0 Items[0].tag.item1 set value [1,3,5,6,7]
+execute if score @s mck_scene_anim matches 738 run data modify block 0 0 0 Items[0].components.item1 set value [1,3,5,6,7]
 execute if score @s mck_scene_anim matches 738 run item replace entity @s enderchest.3 from block 0 0 0 container.0
 
-execute if score @s mck_scene_anim matches 666..738 run scoreboard players operation temp mck_temp = @s mck_scene_anim
-execute if score @s mck_scene_anim matches 666..738 run scoreboard players operation temp mck_temp %= #2 wasd.constant
-execute if score @s mck_scene_anim matches 666..738 if score temp mck_temp matches 0 run function mck:player/item/item1_rolling
-execute if score @s mck_scene_anim matches 666..738 if score temp mck_temp matches 0 run item replace block 0 0 0 container.0 from entity @s enderchest.3
-execute if score @s mck_scene_anim matches 666..738 if score temp mck_temp matches 0 run data modify block 0 0 0 Items[0].tag.item1 append from block 0 0 0 Items[0].tag.item1[0]
-execute if score @s mck_scene_anim matches 666..738 if score temp mck_temp matches 0 run data remove block 0 0 0 Items[0].tag.item1[0]
-execute if score @s mck_scene_anim matches 668 if score temp mck_temp matches 0 run data modify block 0 0 0 Items[0].tag.item1 set value [1]
-execute if score @s mck_scene_anim matches 666..738 if score temp mck_temp matches 0 run item replace entity @s enderchest.3 from block 0 0 0 container.0
+execute if score @s mck_scene_anim matches 666..738 run scoreboard players operation temp.mck_temp = @s mck_scene_anim
+execute if score @s mck_scene_anim matches 666..738 run scoreboard players operation temp.mck_temp %= #2.wasd.constant
+execute if score @s mck_scene_anim matches 666..738 if score temp.mck_temp matches 0 run function mck:player/item/item1_rolling
+execute if score @s mck_scene_anim matches 666..738 if score temp.mck_temp matches 0 run item replace block 0 0 0 container.0 from entity @s enderchest.3
+execute if score @s mck_scene_anim matches 666..738 if score temp.mck_temp matches 0 run data modify block 0 0 0 Items[0].components.item1 append from block 0 0 0 Items[0].components.item1[0]
+execute if score @s mck_scene_anim matches 666..738 if score temp.mck_temp matches 0 run data remove block 0 0 0 Items[0].components.item1[0]
+execute if score @s mck_scene_anim matches 668 if score temp.mck_temp matches 0 run data modify block 0 0 0 Items[0].components.item1 set value [1]
+execute if score @s mck_scene_anim matches 666..738 if score temp.mck_temp matches 0 run item replace entity @s enderchest.3 from block 0 0 0 container.0
 # ITEM COLLECTION ANIM
 
 

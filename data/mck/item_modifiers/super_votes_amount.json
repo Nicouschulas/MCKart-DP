@@ -26,29 +26,28 @@
       }
     ]
   },
-    {
-      "function": "minecraft:set_lore",
-      "entity": "this",
-      "lore": [
-        [
-          {
-            "translate": "menu.page.tracks.super_vote_lore2",
-            "color": "gray",
-            "bold": false,
-            "italic": false
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "translate": "menu.page.tracks.super_vote_lore2",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "temp",
+            "objective": "mck_temp"
           },
-          {
-            "score": {
-              "name": "temp",
-              "objective": "mck_temp"
-            },
-            "color": "#FFDF3D",
-            "bold": true,
-            "italic": false
-          }
-        ]
-      ],
-      "replace": false
-    }
-  ]
-  
+          "color": "#FFDF3D",
+          "bold": true,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false
+  }
+]

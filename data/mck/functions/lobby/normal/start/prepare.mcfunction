@@ -1,11 +1,8 @@
-# race id
 scoreboard players add race_id mck_id 1
 execute if score race_id mck_id matches 0 run scoreboard players set race_id mck_id 1
 scoreboard players operation lobbyraceid mck_temp = race_id mck_id
 execute store result storage temp temp long 1 run scoreboard players get lobbyraceid mck_temp
 data modify storage lobby races append from storage temp temp
-
-
 
 data modify storage tracks used append from storage tracks selections[0]
 

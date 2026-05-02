@@ -1,11 +1,8 @@
 tag @s add now
 
-
 # tumble
 execute if score @s mck_tumble matches 12 run function mck:player/drive/loose_coins
 execute if score @s mck_tumble matches 1.. run scoreboard players remove @s mck_tumble 1
-
-
 
 tag @s add collector
 

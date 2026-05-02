@@ -3,13 +3,9 @@
     "function": "minecraft:set_lore",
     "entity": "this",
     "lore": [
-      {
-        "text": ""
-      },
+      "",
       [
-        {
-          "text": "  "
-        },
+        "  ",
         {
           "translate": "menu.page.play.lobbybar.status",
           "color": "gray",
@@ -24,9 +20,7 @@
         }
       ],
       [
-        {
-          "text": "  "
-        },
+        "  ",
         {
           "translate": "menu.page.play.lobbybar.track",
           "color": "gray",
@@ -40,9 +34,7 @@
         }
       ],
       [
-        {
-          "text": "  "
-        },
+        "  ",
         {
           "translate": "menu.page.play.lobbybar.timer",
           "color": "gray",

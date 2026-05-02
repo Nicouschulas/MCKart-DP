@@ -1,4 +1,4 @@
-execute store result score temp mck_temp run data get entity @s SelectedItem.tag.CustomModelData
+execute store result score temp mck_temp run data get entity @s components[minecraft:custom_model_data]
 
 execute store result score x mck_temp run data get entity @s Pos[0]
 execute store result score y mck_temp run data get entity @s Pos[1]

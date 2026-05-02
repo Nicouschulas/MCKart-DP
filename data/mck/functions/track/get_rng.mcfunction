@@ -50,25 +50,5 @@ execute if score rng_count mck_temp matches 1.. run scoreboard players remove rn
 
 execute if score rng_count mck_temp matches 1.. run data modify storage temp tracks append from storage temp tracks[0]
 execute if score rng_count mck_temp matches 1.. run data remove storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run scoreboard players remove rng_count mck_temp 1
-
-execute if score rng_count mck_temp matches 1.. run data modify storage temp tracks append from storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run data remove storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run scoreboard players remove rng_count mck_temp 1
-
-execute if score rng_count mck_temp matches 1.. run data modify storage temp tracks append from storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run data remove storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run scoreboard players remove rng_count mck_temp 1
-
-execute if score rng_count mck_temp matches 1.. run data modify storage temp tracks append from storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run data remove storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run scoreboard players remove rng_count mck_temp 1
-
-execute if score rng_count mck_temp matches 1.. run data modify storage temp tracks append from storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run data remove storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run scoreboard players remove rng_count mck_temp 1
-
-execute if score rng_count mck_temp matches 1.. run data modify storage temp tracks append from storage temp tracks[0]
-execute if score rng_count mck_temp matches 1.. run data remove storage temp tracks[0]
 
 execute if data storage temp tracks[0] run data modify storage tracks selections append from storage temp tracks[0]

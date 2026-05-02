@@ -1,8 +1,5 @@
 data modify entity @s item.id set value "minecraft:carrot_on_a_stick"
 
-
-
-
 execute unless score @s mck_item_mount matches 14 on vehicle if entity @s[tag=!bot] on passengers if entity @s[type=player,scores={mck_status=1}] run scoreboard players operation count mck_temp = @s mck_item1_count
 execute unless score @s mck_item_mount matches 14 on vehicle if entity @s[tag=bot] run scoreboard players operation count mck_temp = @s mck_item1_count
 
@@ -11,10 +8,7 @@ scoreboard players operation count mck_temp *= #100000 wasd.constant
 
 scoreboard players operation count mck_temp += @s mck_item_mount
 
-execute store result entity @s item.tag.CustomModelData int 1 run scoreboard players get count mck_temp
-
-
-
+execute store result entity @s item.components.custom_model_data int 1 run scoreboard players get count mck_temp
 
 execute unless score @s mck_item_mount matches 14 run tp @s ~ ~ ~ ~5 0
 

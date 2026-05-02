@@ -7,7 +7,6 @@ item replace entity @s enderchest.5 with chest{player_goods:[]}
 item replace entity @s enderchest.25 with air
 item replace entity @s enderchest.26 with air
 
-
 scoreboard players set @s mck_bank 0
 scoreboard players set @s mck_kart_fragments 0
 scoreboard players set @s mck_quest1 0

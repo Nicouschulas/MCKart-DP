@@ -1,2 +1,2 @@
-$data modify storage pcd:workspace data.workspace[$(index)].pos set from entity @s Pos
-$data modify storage pcd:workspace data.workspace[$(index)].rot set from entity @s Rotation
+/data modify storage pcd:workspace data.workspace[$(index)].pos set value [$(x), $(y), $(z)]
+/data modify storage pcd:workspace data.workspace[$(index)].rot set value [$(pitch), $(yaw)]

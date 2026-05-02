@@ -2,7 +2,7 @@
     {
       "function": "minecraft:set_lore",
       "entity": "this",
-      "lore": [
+      "components": [
         {
           "translate": "menu.page.challenges.click",
           "color": "#FFFDD1",
@@ -15,7 +15,7 @@
     {
       "function": "minecraft:set_name",
       "entity": "this",
-      "name": [
+      "components": [
         {
           "translate": "menu.page.challenges.reward",
           "color": "#FFEB99",
@@ -40,4 +40,3 @@
       ]
     }
   ]
-  

@@ -1,6 +1,6 @@
 scoreboard players set @s mck_leaf 12
-execute if entity @s[tag=!bot] on vehicle on passengers if entity @s[tag=item_mount] run scoreboard players set @s mck_timer 5
-execute if entity @s[tag=bot] on passengers if entity @s[tag=item_mount] run scoreboard players set @s mck_timer 5
+execute if entity @s[components=!{tag:{bot:1b}}] on vehicle on passengers if entity @s[components={item_mount:1b}] run scoreboard players set @s mck_timer 5
+execute if entity @s[components={tag:{bot:1b}}] on passengers if entity @s[components={item_mount:1b}] run scoreboard players set @s mck_timer 5
 
 execute if score @s mck_blue_id matches 1.. run playsound minecraft:item.shield.block master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.8
 execute if score @s mck_blue_id matches 1.. run item replace entity @s armor.head with air
@@ -15,6 +15,6 @@ playsound minecraft:entity.player.attack.sweep master @a[scores={mck_setting1=1}
 execute as @e[type=fox,distance=0.4..2.7] run scoreboard players remove @s mck_speed 50
 
 
-execute as @e[tag=banana,type=item,distance=..6] at @s run function mck:item_function/leaf/bananas
-execute as @e[tag=bomb,type=item,distance=..6] at @s run function mck:item_function/leaf/bombs
-execute as @e[tag=fake_itembox,type=end_crystal,distance=..6] at @s run function mck:item_function/leaf/fake_itemboxes
+execute as @e[components={tag:{banana:1b}},distance=..6] at @s run function mck:item_function/leaf/bananas
+execute as @e[components={tag:{bomb:1b}},distance=..6] at @s run function mck:item_function/leaf/bombs
+execute as @e[components={tag:{fake_itembox:1b}},distance=..6] at @s run function mck:item_function/leaf/fake_itemboxes

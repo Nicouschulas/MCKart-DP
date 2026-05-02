@@ -4,7 +4,6 @@ execute on vehicle run scoreboard players set is_on_kart mck_temp 1
 execute if score is_on_kart mck_temp matches 0 unless score @s mck_lobby_status matches 1..2 run function mck:player/drive/quit_driving
 execute if score is_on_kart mck_temp matches 0 if score @s mck_lobby_status matches 1..2 run function mck:player/drive/get_player_on_kart
 
-
 execute if score is_on_kart mck_temp matches 0 run scoreboard players set @s mck_speed 0
 execute if score is_on_kart mck_temp matches 1 unless score @s mck_lobby_status matches 1 run function mck:player/drive/calc_speed
 execute if score @s mck_lobby_status matches 1 run scoreboard players set @s mck_speed 0

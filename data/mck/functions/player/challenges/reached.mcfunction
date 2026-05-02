@@ -52,7 +52,6 @@ execute if score @s mck_challenge_level matches 10 if score @s mck_quest1 matche
 execute if score @s mck_challenge_level matches 10 if score @s mck_quest2 matches 1.. run scoreboard players set @s mck_quest2 -1
 execute if score @s mck_challenge_level matches 10 if score @s mck_quest3 matches 1.. run scoreboard players set @s mck_quest3 -1
 
-
 scoreboard players set new_completed mck_temp 0
 execute unless score @s mck_quest1 = old1 mck_temp run scoreboard players add new_completed mck_temp 1
 execute unless score @s mck_quest2 = old2 mck_temp run scoreboard players add new_completed mck_temp 1

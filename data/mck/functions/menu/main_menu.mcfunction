@@ -1,9 +1,5 @@
 execute if score @s mck_menudelay matches 0 run data modify storage menu inv set from entity @s Inventory
 
-
-
-
-
 execute if score @s mck_menudelay matches 0 unless score @s mck_page matches -7..-5 unless score @s mck_page matches 3 unless score @s mck_page matches -10 run function mck:menu/bar/bar_check
 
 execute if score @s mck_menudelay matches 0 run execute if score @s mck_page matches -99 run function mck:menu/admin/check
@@ -25,7 +21,6 @@ execute if score @s mck_menudelay matches 0 run execute if score @s mck_page mat
 
 execute unless score allow_free_drive mck_admin_settings matches 0 if score @s[gamemode=!creative] mck_menudelay matches 0 unless data storage menu inv[{Slot:100b}] if score @s mck_status matches 0 if score @s mck_lobby_status matches 0 unless score @s mck_scene matches 1..17 run playsound ui.button.click master @s[scores={mck_setting1=1}] ~ ~ ~ 0.3 0.9
 execute unless score allow_free_drive mck_admin_settings matches 0 if score @s[gamemode=!creative] mck_menudelay matches 0 unless data storage menu inv[{Slot:100b}] if score @s mck_status matches 0 if score @s mck_lobby_status matches 0 unless score @s mck_scene matches 1..17 run function driver:join
-execute if score @s[gamemode=!creative] mck_menudelay matches 0 unless data storage menu inv[{Slot:100b}] run function mck:menu/draw
 execute if score @s[gamemode=!creative] mck_menudelay matches 0 unless data storage menu inv[{Slot:101b}] run function mck:menu/draw
 execute if score @s[gamemode=!creative] mck_menudelay matches 0 unless data storage menu inv[{Slot:102b}] run function mck:menu/draw
 

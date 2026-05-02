@@ -3,9 +3,7 @@
       "function": "minecraft:set_lore",
       "entity": "this",
       "lore": [
-        {
-          "text": ""
-        },
+        "",
         [
           {
             "translate": "menu.profile.ranked.rank",
@@ -20,12 +18,10 @@
             "separator": ""
           }
         ],
-        {
-            "text": ""
-        },
+        "",
         [
           {
-            "text": " #",
+            "text": "#",
             "color": "white",
             "bold": false,
             "italic": false
@@ -76,12 +72,8 @@
             "italic": true
           }
         ],
-        {
-          "text": ""
-        },
-        {
-          "text": ""
-        },
+        "",
+        "",
         [
           {
             "translate": "menu.profile.ranked.rank_time",
@@ -99,9 +91,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         [
           {
             "translate": "menu.profile.ranked.next",
@@ -123,4 +113,3 @@
       "replace": true
     }
   ]
-  

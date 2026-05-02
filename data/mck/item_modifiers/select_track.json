@@ -7,11 +7,10 @@
       },
       "ops": [
         {
-          "source": "cups[0][0].tag.display.Name",
+          "source": "cups[0][0].components.display.Name",
           "target": "track_selected",
           "op": "replace"
         }
       ]
     }
   ]
-  

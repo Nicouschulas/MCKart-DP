@@ -16,9 +16,9 @@ scoreboard players operation @s mck_spectate = id mck_temp
 execute as @a[scores={mck_status=1,mck_lobby_status=2}] if score @s mck_id = id mck_temp at @s rotated as @s positioned ~ ~1.3 ~ positioned ^ ^ ^1 run function mck:player/spectate/add
 
 item replace block 0 0 0 container.0 from entity @s enderchest.2
-data modify block 0 0 0 Items[0].tag.data.music set from storage temp temp
+data modify block 0 0 0 Items[0].components.data.music set from storage temp temp
 item replace entity @s enderchest.2 from block 0 0 0 container.0
-function mck:player/audio_music/intro with entity @s EnderItems[2].tag.data.music
+function mck:player/audio_music/intro with entity @s EnderItems[2].components.data.music
 
 
 scoreboard players set clear mck_temp 1
@@ -40,16 +40,16 @@ execute as @e[type=item_display,tag=mck_spectate_entity] if score @s mck_spectat
 tag @s remove temp
 
 
-item replace entity @s inventory.4 with gold_nugget{display:{Name:'{"text":" "}'},CustomModelData:10013,killme:1b} 1
+item replace entity @s inventory.4 with gold_nugget[display={Name:'{"text":" "}'},CustomModelData:10013,killme:1b] 1
 
 
 
-item replace entity @s armor.chest with iron_chestplate{display:{Name:'{"text":" "}'},Unbreakable:1b,killme:1b,CustomModelData:1} 1
+item replace entity @s armor.chest with iron_chestplate[display={Name:'{"text":" "}'},Unbreakable:1b,killme:1b,CustomModelData:1] 1
 
-item replace block 0 0 0 container.0 with iron_leggings{display:{Name:'{"text":" "}'},Unbreakable:1b,killme:1b} 1
+item replace block 0 0 0 container.0 with iron_leggings[display={Name:'{"text":" "}'},Unbreakable:1b,killme:1b] 1
 
-execute store result score temp mck_temp run data get entity @s EnderItems[4].tag.stats.rank
+execute store result score temp mck_temp run data get entity @s EnderItems[4].components.stats.rank
 scoreboard players add temp mck_temp 1
-execute store result block 0 0 0 Items[0].tag.CustomModelData int 1 run scoreboard players get temp mck_temp
+execute store result block 0 0 0 Items[0].components.CustomModelData int 1 run scoreboard players get temp mck_temp
 
 item replace entity @s armor.legs from block 0 0 0 container.0

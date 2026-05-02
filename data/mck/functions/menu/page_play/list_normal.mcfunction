@@ -14,8 +14,8 @@ execute if score lobbystatus mck_temp matches 2 run function mck:time/calc
 
 execute if score @s mck_permission matches 2.. run scoreboard players set lobbyjoinlocked mck_temp 0
 
-item replace block 0 0 0 container.0 with gold_nugget{display:{Name:'{"translate":"menu.page.play.normallobby","color":"#D6972B","bold":true,"italic":false}'},CustomModelData:102,killme:1b} 1
-execute if score @s mck_lobby = lobbyid mck_temp run item replace block 0 0 0 container.0 with gold_nugget{display:{Name:'{"translate":"menu.page.play.yourlobby","color":"#A7FF7A","bold":true,"italic":false}'},CustomModelData:110,killme:1b} 1
+item replace block 0 0 0 container.0 with gold_nugget[minecraft:item_name='{"translate":"menu.page.play.normallobby","color":"#D6972B","bold":true,"italic":false}',minecraft:custom_model_data=102,minecraft:killme=1b] 1
+execute if score @s mck_lobby = lobbyid mck_temp run item replace block 0 0 0 container.0 with gold_nugget[minecraft:item_name='{"translate":"menu.page.play.yourlobby","color":"#A7FF7A","bold":true,"italic":false}',minecraft:custom_model_data=110,minecraft:killme=1b] 1
 item modify block 0 0 0 container.0 mck:lobbybar/open
 
 execute if score lobbyplayers mck_temp >= maxplayersnormal mck_admin_settings run item modify block 0 0 0 container.0 mck:lobbybar/full
@@ -26,22 +26,22 @@ execute if score lobbystatus mck_temp matches 2 run item modify block 0 0 0 cont
 
 item modify block 0 0 0 container.0 mck:normal_lobby
 
-execute if score maxplayersnormal mck_admin_settings matches ..11 run data remove block 0 0 0 Items[0].tag.display.Lore[17]
-execute if score maxplayersnormal mck_admin_settings matches ..10 run data remove block 0 0 0 Items[0].tag.display.Lore[16]
-execute if score maxplayersnormal mck_admin_settings matches ..9 run data remove block 0 0 0 Items[0].tag.display.Lore[15]
-execute if score maxplayersnormal mck_admin_settings matches ..8 run data remove block 0 0 0 Items[0].tag.display.Lore[14]
-execute if score maxplayersnormal mck_admin_settings matches ..7 run data remove block 0 0 0 Items[0].tag.display.Lore[13]
-execute if score maxplayersnormal mck_admin_settings matches ..6 run data remove block 0 0 0 Items[0].tag.display.Lore[12]
-execute if score maxplayersnormal mck_admin_settings matches ..5 run data remove block 0 0 0 Items[0].tag.display.Lore[11]
-execute if score maxplayersnormal mck_admin_settings matches ..4 run data remove block 0 0 0 Items[0].tag.display.Lore[10]
-execute if score maxplayersnormal mck_admin_settings matches ..3 run data remove block 0 0 0 Items[0].tag.display.Lore[9]
-execute if score maxplayersnormal mck_admin_settings matches ..2 run data remove block 0 0 0 Items[0].tag.display.Lore[8]
-execute if score maxplayersnormal mck_admin_settings matches ..1 run data remove block 0 0 0 Items[0].tag.display.Lore[7]
-execute if score maxplayersnormal mck_admin_settings matches ..0 run data remove block 0 0 0 Items[0].tag.display.Lore[6]
+execute if score maxplayersnormal mck_admin_settings matches ..11 run data remove block 0 0 0 Items[0].tag.components.display.Lore[17]
+execute if score maxplayersnormal mck_admin_settings matches ..10 run data remove block 0 0 0 Items[0].tag.components.display.Lore[16]
+execute if score maxplayersnormal mck_admin_settings matches ..9 run data remove block 0 0 0 Items[0].tag.components.display.Lore[15]
+execute if score maxplayersnormal mck_admin_settings matches ..8 run data remove block 0 0 0 Items[0].tag.components.display.Lore[14]
+execute if score maxplayersnormal mck_admin_settings matches ..7 run data remove block 0 0 0 Items[0].tag.components.display.Lore[13]
+execute if score maxplayersnormal mck_admin_settings matches ..6 run data remove block 0 0 0 Items[0].tag.components.display.Lore[12]
+execute if score maxplayersnormal mck_admin_settings matches ..5 run data remove block 0 0 0 Items[0].tag.components.display.Lore[11]
+execute if score maxplayersnormal mck_admin_settings matches ..4 run data remove block 0 0 0 Items[0].tag.components.display.Lore[10]
+execute if score maxplayersnormal mck_admin_settings matches ..3 run data remove block 0 0 0 Items[0].tag.components.display.Lore[9]
+execute if score maxplayersnormal mck_admin_settings matches ..2 run data remove block 0 0 0 Items[0].tag.components.display.Lore[8]
+execute if score maxplayersnormal mck_admin_settings matches ..1 run data remove block 0 0 0 Items[0].tag.components.display.Lore[7]
+execute if score maxplayersnormal mck_admin_settings matches ..0 run data remove block 0 0 0 Items[0].tag.components.display.Lore[6]
 
 
 execute if score temp mck_temp matches 1 run data modify block 0 0 0 Items[0].tag.lobby set value 1
-execute if score temp mck_temp matches 1 if score @s mck_scene matches 13 run data modify block 0 0 0 Items[0].tag.CustomModelData set value 174
+execute if score temp mck_temp matches 1 if score @s mck_scene matches 13 run data modify block 0 0 0 Items[0].tag.components.CustomModelData set value 174
 execute if score temp mck_temp matches 1 run item replace entity @s inventory.9 from block 0 0 0 container.0
 execute if score temp mck_temp matches 2 run data modify block 0 0 0 Items[0].tag.lobby set value 2
 execute if score temp mck_temp matches 2 run item replace entity @s inventory.10 from block 0 0 0 container.0

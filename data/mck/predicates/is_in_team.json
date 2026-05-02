@@ -2,7 +2,6 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "team": "no_collision"
+        "team": "no_collision"
     }
-  }
-  
+}

@@ -1,4 +1,4 @@
-execute store result score in mck_db_bit run data get storage lobby normal[0].track.tag.data.id
+execute store result score in mck_db_bit run data get storage lobby normal[0].track.components.data.id
 function mck:database/track_find
 
 execute if data storage databases output.data store result score stat mck_temp run data get storage databases output.data.n_times_played

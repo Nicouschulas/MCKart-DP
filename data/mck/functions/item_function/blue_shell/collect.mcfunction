@@ -1,7 +1,6 @@
-item replace entity @s armor.head with carved_pumpkin{display:{Name:'{"text":" "}'},HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+item replace entity @s armor.head with carved_pumpkin[display:{Name:'{"text":" "}'},HideFlags:127,Unbreakable={},Enchantments:[{id:"minecraft:binding_curse",lvl:1}]] 1
 playsound minecraft:block.note_block.chime master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.3
 execute if score did_connect mck_temp matches 0 run item replace entity @s armor.head with air
-
 
 execute if score did_connect mck_temp matches 0 run function mck:player/drive/tumble
 execute if score did_connect mck_temp matches 0 run item replace entity @s armor.head with air

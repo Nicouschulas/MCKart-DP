@@ -8,6 +8,3 @@ execute if score @s mck_challenge_level matches 8 if score @s mck_quest1 matches
 
 execute if score @s mck_challenge_level matches 10 if score @s mck_quest1 matches 0.. store result score @s mck_quest1 run data get entity @s EnderItems[4].tag.stats.rank
 execute if score @s mck_challenge_level matches 10 unless score @s mck_quest1 matches ..-1 unless score @s mck_quest1 matches 1..3 run scoreboard players set @s mck_quest1 0
-
-
-function mck:player/challenges/reached

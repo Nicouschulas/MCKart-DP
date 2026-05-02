@@ -1,8 +1,8 @@
 {
-    "display": {
+    "components": {
       "icon": {
         "item": "minecraft:gold_nugget",
-        "nbt": "{CustomModelData:107}"
+        "nbt": "{custom_model_data:107}"
       },
       "title": {
         "translate": "toast.new.coin_multiplier"
@@ -22,4 +22,3 @@
       "function": "mck:player/shop_toast"
     }
   }
-  

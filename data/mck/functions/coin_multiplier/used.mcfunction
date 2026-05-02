@@ -8,8 +8,6 @@ execute unless score bool mck_temp matches 1.. if score level mck_coin_multiplie
 execute unless score bool mck_temp matches 1.. store result score amount mck_temp run data get storage databases output.data.amount
 execute unless score bool mck_temp matches 1.. unless score amount mck_temp matches 1.. run scoreboard players set bool mck_temp 3
 
-
-
 execute if score bool mck_temp matches 1 run tellraw @s [{"text":"[","color":"gray","bold":true},{"translate":"system","color":"gold","bold":false},{"text":"] "},{"translate":"chat.alert.coin_multiplier.error1","color":"#FF837A","bold":false}]
 execute if score bool mck_temp matches 2 run tellraw @s [{"text":"[","color":"gray","bold":true},{"translate":"system","color":"gold","bold":false},{"text":"] "},{"translate":"chat.alert.coin_multiplier.error2","color":"#FF837A","bold":false}]
 execute if score bool mck_temp matches 3 run tellraw @s [{"text":"[","color":"gray","bold":true},{"translate":"system","color":"gold","bold":false},{"text":"] "},{"translate":"chat.alert.coin_multiplier.error3","color":"#FF837A","bold":false}]

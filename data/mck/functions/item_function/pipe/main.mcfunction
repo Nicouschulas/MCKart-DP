@@ -10,8 +10,6 @@ execute if score @s mck_pipe matches 60 run playsound minecraft:block.note_block
 execute if score @s mck_pipe matches 59 run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.8
 execute if score @s mck_pipe matches 58 run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.4
 
-
-
 execute if score @s mck_pipe matches 40 run function mck:item_function/pipe/tp
 
 

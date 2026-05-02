@@ -1,5 +1,3 @@
-# prozent = 100 - (100 / Max Players * (Place - 1))
-
 scoreboard players set temp mck_temp 100
 scoreboard players operation temp mck_temp /= @s mck_players
 
@@ -85,7 +83,7 @@ execute if score prozent mck_temp matches 30..100 run data modify storage temp t
 execute if score prozent mck_temp matches 30..100 run data modify storage temp table append value 18
 
 
-item replace block 0 0 0 container.0 with paper 1
+item replace block 0 0 0 container.0 with paper[Count=1]
 item modify block 0 0 0 container.0 mck:rng_1_18
 execute store result score count mck_temp run data get block 0 0 0 Items[0].Count
 function mck:player/item/shuffle

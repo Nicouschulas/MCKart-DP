@@ -1,6 +1,6 @@
 function mck:player/set_scores
 item replace block 0 0 0 container.0 with paper
-execute store result block 0 0 0 Items[0].tag.playerdata.id long 1 run scoreboard players get @s mck_id
+execute store result block 0 0 0 Items[0].components.playerdata.id long 1 run scoreboard players get @s mck_id
 tag @s add sign
 setblock 0 3 0 air
 setblock 0 3 0 oak_sign{front_text:{messages:['{"selector":"@p[tag=sign]","color":"gold","bold":true,"italic":false}','{"text":""}','{"text":""}','{"text":""}']}} replace
@@ -10,7 +10,7 @@ tag @s remove phone_bar
 effect clear @s invisibility
 effect clear @s speed
 
-data modify block 0 0 0 Items[0].tag.playerdata.name set from block 0 3 0 front_text.messages[0]
+data modify block 0 0 0 Items[0].components.playerdata.name set from block 0 3 0 front_text.messages[0]
 item replace entity @s enderchest.0 from block 0 0 0 container.0
 function mck:menu/unselect_track
 
@@ -49,8 +49,8 @@ scoreboard players reset @s mck_leave
 scoreboard players reset @s mck_death
 
 data modify storage temp enderchest set value [{}, {}, {}, {}, {}]
-data modify storage temp enderchest[4].tag.track_stats set from entity @s EnderItems[4].tag.track_stats
-data modify storage temp enderchest[4].tag.stats set from entity @s EnderItems[4].tag.stats
+data modify storage temp enderchest[4].components.track_stats set from entity @s EnderItems[4].components.track_stats
+data modify storage temp enderchest[4].components.stats set from entity @s EnderItems[4].components.stats
 function mck:player/stats/ranked/update_ranking_time
 
 scoreboard players operation in mck_db_bit = @s mck_id
@@ -67,13 +67,13 @@ scoreboard players set @s mck_sound_engine 600
 
 
 item replace block 0 0 0 container.0 with paper
-execute store result block 0 0 0 Items[0].tag.playerdata.id long 1 run scoreboard players get @s mck_id
+execute store result block 0 0 0 Items[0].components.playerdata.id long 1 run scoreboard players get @s mck_id
 tag @s add sign
 setblock 0 3 0 air
 setblock 0 3 0 oak_sign{front_text:{messages:['{"selector":"@p[tag=sign]","color":"gold","bold":true,"italic":false}','{"text":""}','{"text":""}','{"text":""}']}} replace
 tag @s remove sign
 
-data modify block 0 0 0 Items[0].tag.playerdata.name set from block 0 3 0 front_text.messages[0]
+data modify block 0 0 0 Items[0].components.playerdata.name set from block 0 3 0 front_text.messages[0]
 item replace entity @s enderchest.0 from block 0 0 0 container.0
 
 

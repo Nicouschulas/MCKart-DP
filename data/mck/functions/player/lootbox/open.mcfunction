@@ -62,7 +62,7 @@ execute store result storage databases output.data.amount int 1 run scoreboard p
 data modify storage databases input set from storage databases output
 function mck:database/player_good_set
 
-item modify entity @s enderchest.5 mck:player_goods_set
+item modify entity @s enderchest.5 components:[{minecraft:player_goods_set={}}]
 
 
 execute if score @s mck_challenge_level matches 9 if score @s mck_quest3 matches 0.. run scoreboard players add @s mck_quest3 1

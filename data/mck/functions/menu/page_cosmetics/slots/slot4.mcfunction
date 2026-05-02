@@ -1,9 +1,9 @@
 item replace block 0 0 0 container.0 with paper
 
-data modify storage temp list[0].data.icon.tag.display.Lore prepend value '{"text":" "}'
+data modify storage temp list[0].data.icon.components minecraft:display.Lore prepend value '{"text":" "}'
 
 data modify block 0 0 0 Items[0].id set from storage temp list[0].data.icon.id
-data modify block 0 0 0 Items[0].tag set from storage temp list[0].data.icon.tag
+data modify block 0 0 0 Items[0].components set from storage temp list[0].data.icon.components
 
 execute unless data storage temp list[0].data.children[0] run item modify block 0 0 0 container.0 mck:cosmetics/amount
 execute unless data storage temp list[0].data.children[0] run function mck:menu/page_cosmetics/slots/check_selected

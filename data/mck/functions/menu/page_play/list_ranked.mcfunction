@@ -14,8 +14,8 @@ execute if score lobbystatus mck_temp matches 2 run function mck:time/calc
 
 execute if score @s mck_permission matches 2.. run scoreboard players set lobbyjoinlocked mck_temp 0
 
-item replace block 0 0 0 container.0 with gold_nugget{display:{Name:'{"translate":"menu.page.play.rankedlobby","color":"#57DDFF","bold":true,"italic":false}'},CustomModelData:103,killme:1b} 1
-execute if score @s mck_lobby = lobbyid mck_temp run item replace block 0 0 0 container.0 with gold_nugget{display:{Name:'{"translate":"menu.page.play.yourlobby","color":"#A7FF7A","bold":true,"italic":false}'},CustomModelData:110,killme:1b} 1
+item replace block 0 0 0 container.0 with gold_nugget[minecraft:item_name='{"translate":"menu.page.play.rankedlobby","color":"#57DDFF","bold":true,"italic":false}',minecraft:custom_model_data=103,minecraft:killme=1b] 1
+execute if score @s mck_lobby = lobbyid mck_temp run item replace block 0 0 0 container.0 with gold_nugget[minecraft:item_name='{"translate":"menu.page.play.yourlobby","color":"#A7FF7A","bold":true,"italic":false}',minecraft:custom_model_data=110,minecraft:killme=1b] 1
 item modify block 0 0 0 container.0 mck:lobbybar/open
 
 execute if score lobbyplayers mck_temp >= maxplayersranked mck_admin_settings run item modify block 0 0 0 container.0 mck:lobbybar/full

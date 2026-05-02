@@ -1,6 +1,5 @@
 scoreboard players set bool mck_temp 0
 
-
 scoreboard players set @e[tag=collector,limit=1] mck_itembox 1
 scoreboard players set @p[tag=collector] mck_item_delay 10
 

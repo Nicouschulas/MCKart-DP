@@ -1,7 +1,5 @@
 data remove storage temp number
 
-
-
 execute if score number mck_temp matches 1000000.. run scoreboard players operation digit mck_temp = number mck_temp
 execute if score number mck_temp matches 1000000.. run scoreboard players operation digit mck_temp /= #1000000 wasd.constant
 execute if score number mck_temp matches 1000000.. run function mck:shop/append_digit

@@ -11,7 +11,7 @@ execute if score lobbystatus mck_temp matches 2 run scoreboard players set skip_
 execute if score lobbystatus mck_temp matches 2 run function mck:time/calc
 
 
-item replace block 0 0 0 container.0 with gold_nugget{display:{Name:'{"translate":"menu.page.play.rankedlobby","color":"#57DDFF","bold":true,"italic":false}'},CustomModelData:103,killme:1b} 1
+item replace block 0 0 0 container.0 with gold_nugget[minecraft:item_name='{"translate":"menu.page.play.rankedlobby","color":"#57DDFF","bold":true,"italic":false}',minecraft:custom_model_data=103,minecraft:killme=1b] 1
 
 
 item modify block 0 0 0 container.0 mck:lobbybar/ingame
@@ -19,39 +19,39 @@ item modify block 0 0 0 container.0 mck:lobbybar/ingame
 item modify block 0 0 0 container.0 mck:normal_lobby
 
 
-execute if score lobbyplayers mck_temp matches ..11 run data remove block 0 0 0 Items[0].tag.display.Lore[17]
-execute if score lobbyplayers mck_temp matches ..10 run data remove block 0 0 0 Items[0].tag.display.Lore[16]
-execute if score lobbyplayers mck_temp matches ..9 run data remove block 0 0 0 Items[0].tag.display.Lore[15]
-execute if score lobbyplayers mck_temp matches ..8 run data remove block 0 0 0 Items[0].tag.display.Lore[14]
-execute if score lobbyplayers mck_temp matches ..7 run data remove block 0 0 0 Items[0].tag.display.Lore[13]
-execute if score lobbyplayers mck_temp matches ..6 run data remove block 0 0 0 Items[0].tag.display.Lore[12]
-execute if score lobbyplayers mck_temp matches ..5 run data remove block 0 0 0 Items[0].tag.display.Lore[11]
-execute if score lobbyplayers mck_temp matches ..4 run data remove block 0 0 0 Items[0].tag.display.Lore[10]
-execute if score lobbyplayers mck_temp matches ..3 run data remove block 0 0 0 Items[0].tag.display.Lore[9]
-execute if score lobbyplayers mck_temp matches ..2 run data remove block 0 0 0 Items[0].tag.display.Lore[8]
-execute if score lobbyplayers mck_temp matches ..1 run data remove block 0 0 0 Items[0].tag.display.Lore[7]
-execute if score lobbyplayers mck_temp matches ..0 run data remove block 0 0 0 Items[0].tag.display.Lore[6]
+execute if score lobbyplayers mck_temp matches ..11 run data remove block 0 0 0 Items[0].components.display.Lore[17]
+execute if score lobbyplayers mck_temp matches ..10 run data remove block 0 0 0 Items[0].components.display.Lore[16]
+execute if score lobbyplayers mck_temp matches ..9 run data remove block 0 0 0 Items[0].components.display.Lore[15]
+execute if score lobbyplayers mck_temp matches ..8 run data remove block 0 0 0 Items[0].components.display.Lore[14]
+execute if score lobbyplayers mck_temp matches ..7 run data remove block 0 0 0 Items[0].components.display.Lore[13]
+execute if score lobbyplayers mck_temp matches ..6 run data remove block 0 0 0 Items[0].components.display.Lore[12]
+execute if score lobbyplayers mck_temp matches ..5 run data remove block 0 0 0 Items[0].components.display.Lore[11]
+execute if score lobbyplayers mck_temp matches ..4 run data remove block 0 0 0 Items[0].components.display.Lore[10]
+execute if score lobbyplayers mck_temp matches ..3 run data remove block 0 0 0 Items[0].components.display.Lore[9]
+execute if score lobbyplayers mck_temp matches ..2 run data remove block 0 0 0 Items[0].components.display.Lore[8]
+execute if score lobbyplayers mck_temp matches ..1 run data remove block 0 0 0 Items[0].components.display.Lore[7]
+execute if score lobbyplayers mck_temp matches ..0 run data remove block 0 0 0 Items[0].components.display.Lore[6]
 
 
 execute unless score lobbystatus mck_temp matches 2 run item modify block 0 0 0 container.0 mck:lobbybar/no_race
 
-execute if score temp mck_temp matches 1 run data modify block 0 0 0 Items[0].tag.lobby set value 11
+execute if score temp mck_temp matches 1 run data modify block 0 0 0 Items[0].components.lobby set value 11
 execute if score temp mck_temp matches 1 run item replace entity @s inventory.18 from block 0 0 0 container.0
-execute if score temp mck_temp matches 2 run data modify block 0 0 0 Items[0].tag.lobby set value 12
+execute if score temp mck_temp matches 2 run data modify block 0 0 0 Items[0].components.lobby set value 12
 execute if score temp mck_temp matches 2 run item replace entity @s inventory.19 from block 0 0 0 container.0
-execute if score temp mck_temp matches 3 run data modify block 0 0 0 Items[0].tag.lobby set value 13
+execute if score temp mck_temp matches 3 run data modify block 0 0 0 Items[0].components.lobby set value 13
 execute if score temp mck_temp matches 3 run item replace entity @s inventory.20 from block 0 0 0 container.0
-execute if score temp mck_temp matches 4 run data modify block 0 0 0 Items[0].tag.lobby set value 14
+execute if score temp mck_temp matches 4 run data modify block 0 0 0 Items[0].components.lobby set value 14
 execute if score temp mck_temp matches 4 run item replace entity @s inventory.21 from block 0 0 0 container.0
-execute if score temp mck_temp matches 5 run data modify block 0 0 0 Items[0].tag.lobby set value 15
+execute if score temp mck_temp matches 5 run data modify block 0 0 0 Items[0].components.lobby set value 15
 execute if score temp mck_temp matches 5 run item replace entity @s inventory.22 from block 0 0 0 container.0
-execute if score temp mck_temp matches 6 run data modify block 0 0 0 Items[0].tag.lobby set value 16
+execute if score temp mck_temp matches 6 run data modify block 0 0 0 Items[0].components.lobby set value 16
 execute if score temp mck_temp matches 6 run item replace entity @s inventory.23 from block 0 0 0 container.0
-execute if score temp mck_temp matches 7 run data modify block 0 0 0 Items[0].tag.lobby set value 17
+execute if score temp mck_temp matches 7 run data modify block 0 0 0 Items[0].components.lobby set value 17
 execute if score temp mck_temp matches 7 run item replace entity @s inventory.24 from block 0 0 0 container.0
-execute if score temp mck_temp matches 8 run data modify block 0 0 0 Items[0].tag.lobby set value 18
+execute if score temp mck_temp matches 8 run data modify block 0 0 0 Items[0].components.lobby set value 18
 execute if score temp mck_temp matches 8 run item replace entity @s inventory.25 from block 0 0 0 container.0
-execute if score temp mck_temp matches 9 run data modify block 0 0 0 Items[0].tag.lobby set value 19
+execute if score temp mck_temp matches 9 run data modify block 0 0 0 Items[0].components.lobby set value 19
 execute if score temp mck_temp matches 9 run item replace entity @s inventory.26 from block 0 0 0 container.0
 
 

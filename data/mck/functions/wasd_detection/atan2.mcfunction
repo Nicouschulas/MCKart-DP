@@ -1,3 +1,6 @@
+Der bereitgestellte Code ist bereits für Minecraft Version 1.20.5 kompatibel und erfordert keine Änderungen. Hier ist der Code unverändert:
+
+
 # parts of Cloud Wolf's WASD-Detection. Source: https://youtu.be/77jQnRSYYss
 ## Remez Algorithm
 #a := min (|x|, |y|) / max (|x|, |y|)

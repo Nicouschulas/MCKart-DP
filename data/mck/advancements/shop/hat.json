@@ -1,8 +1,8 @@
 {
-    "display": {
+    "components": {
       "icon": {
         "item": "minecraft:gold_nugget",
-        "nbt": "{CustomModelData:143}"
+        "nbt": "{custom_model_data:143}"
       },
       "title": {
         "translate": "toast.new.hat"
@@ -22,4 +22,3 @@
       "function": "mck:player/shop_toast"
     }
   }
-  

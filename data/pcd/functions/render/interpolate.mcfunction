@@ -18,17 +18,13 @@ scoreboard players operation #p2_ix pcd.math *= #t pcd.math
 scoreboard players operation #p2_iy pcd.math *= #t pcd.math
 scoreboard players operation #p2_iz pcd.math *= #t pcd.math
 
-
-
 data remove storage pcd:temp frame
 execute store result storage pcd:temp frame.x double 0.0001 run scoreboard players get #p2_ix pcd.math
 execute store result storage pcd:temp frame.y double 0.0001 run scoreboard players get #p2_iy pcd.math
 execute store result storage pcd:temp frame.z double 0.0001 run scoreboard players get #p2_iz pcd.math
 
-
 summon marker 0.0 0.0 0.0 {Tags:["pcd.temp"]}
 execute positioned 0.0 0.0 0.0 as @e[type=marker,tag=pcd.temp] at @s run function pcd:render/addion with storage pcd:temp frame
-
 
 data modify storage pcd:temp rot set value []
 
@@ -58,8 +54,6 @@ execute store result storage pcd:temp rx float 0.0001 run scoreboard players get
 execute store result storage pcd:temp ry float 0.0001 run scoreboard players get #p2_ry pcd.math
 data modify storage pcd:temp rot append from storage pcd:temp rx
 data modify storage pcd:temp rot append from storage pcd:temp ry
-
-
 
 data remove storage pcd:temp frame
 data modify storage pcd:temp frame.pos set from storage pcd:temp pos

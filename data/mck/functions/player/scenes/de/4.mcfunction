@@ -15,7 +15,7 @@ execute if score @s mck_scene_anim matches 155..200 run title @s actionbar {"tra
 execute if score @s mck_scene_anim matches 70..155 run title @s actionbar {"translate":"subtitles.manager22","color":"#DEDEDE","bold":false,"italic":false}
 execute if score @s mck_scene_anim matches 22..70 run title @s actionbar {"translate":"subtitles.manager23","color":"#DEDEDE","bold":false,"italic":false}
 
-execute if score @s mck_scene_anim matches 2.. run scoreboard players remove @s mck_speed 4
+execute if score @s mck_scene_anim matches 2 run scoreboard players remove @s mck_speed 4
 execute if score @s mck_scene_anim matches 2.. if score @s mck_speed matches ..-3 run scoreboard players set @s mck_speed -2
 execute if score @s mck_scene_anim matches 2.. run scoreboard players set @s mck_brake 0
 execute if score @s mck_scene_anim matches 2.. on vehicle run scoreboard players set @s mck_drift 0

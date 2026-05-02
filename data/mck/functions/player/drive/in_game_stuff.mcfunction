@@ -3,8 +3,6 @@ execute if score is_on_kart mck_temp matches 1 if score @s mck_lobby_status matc
 execute if score @s mck_blue_id matches 1.. run function mck:item_function/blue_shell/connect
 execute if score @s mck_red_id matches 1.. run function mck:item_function/red_shell/connect
 
-
-
 # blue shell
 execute if score @s mck_blue_id matches 1.. run function mck:item_function/blue_shell/collect
 
@@ -24,13 +22,9 @@ execute if score @s mck_leaf matches ..0 run scoreboard players reset @s mck_lea
 # pipe
 execute if score @s mck_pipe matches 1.. run function mck:item_function/pipe/main
 
-
-
 # tumble
 execute if score @s mck_tumble matches 12 if score @s mck_lobby_status matches 2 run function mck:player/drive/loose_coins
 execute if score @s mck_tumble matches 1.. run scoreboard players remove @s mck_tumble 1
-
-
 
 # coins
 execute if score is_on_kart mck_temp matches 1 if score @s mck_lobby_status matches 2 run tag @s add collector
@@ -50,17 +44,13 @@ execute if score is_on_kart mck_temp matches 1 unless score @s mck_item_delay ma
 execute if score is_on_kart mck_temp matches 1 if score @s mck_lobby_status matches 2 as @e[type=end_crystal,tag=fake_itembox,limit=1,distance=..1.1,scores={mck_timer=..0}] at @s run function mck:item_function/fake-itembox/collect
 execute if score is_on_kart mck_temp matches 1 if score @s mck_lobby_status matches 2 run tag @s remove collector
 
-
 # wenn itembox collected
 execute if score @s mck_itembox matches 1.. run function mck:player/item/collect
-
 
 # item main
 scoreboard players operation temp mck_temp = @s mck_item1
 scoreboard players operation temp mck_temp += @s mck_item2
 execute if score temp mck_temp matches 1.. run function mck:player/item/main
-
-
 
 # challenge level 5 quest 2: backwards driving
 execute if score @s mck_challenge_level matches 5 if score @s mck_quest2 matches 0.. if score @s mck_speed matches ..-1 run scoreboard players add @s mck_quest_temp 1

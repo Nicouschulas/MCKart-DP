@@ -17,8 +17,6 @@ execute if score lobby_loops mck_temp matches 3 store result bossbar nl3 value r
 execute if score lobby_loops mck_temp matches 2 store result bossbar nl2 value run scoreboard players get lobbygametime mck_temp
 execute if score lobby_loops mck_temp matches 1 store result bossbar nl1 value run scoreboard players get lobbygametime mck_temp
 
-
-
 execute if score lobby_loops mck_temp matches 9 if score lobbygametime mck_temp matches 1201.. run bossbar set nl9 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"#B1DB4F","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 8 if score lobbygametime mck_temp matches 1201.. run bossbar set nl8 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"#B1DB4F","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 7 if score lobbygametime mck_temp matches 1201.. run bossbar set nl7 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"#B1DB4F","bold":true,"separator":""}]
@@ -29,7 +27,6 @@ execute if score lobby_loops mck_temp matches 3 if score lobbygametime mck_temp 
 execute if score lobby_loops mck_temp matches 2 if score lobbygametime mck_temp matches 1201.. run bossbar set nl2 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"#B1DB4F","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 1 if score lobbygametime mck_temp matches 1201.. run bossbar set nl1 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"#B1DB4F","bold":true,"separator":""}]
 
-
 execute if score lobby_loops mck_temp matches 9 if score lobbygametime mck_temp matches 201..1200 run bossbar set nl9 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"gold","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 8 if score lobbygametime mck_temp matches 201..1200 run bossbar set nl8 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"gold","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 7 if score lobbygametime mck_temp matches 201..1200 run bossbar set nl7 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"gold","bold":true,"separator":""}]
@@ -39,7 +36,6 @@ execute if score lobby_loops mck_temp matches 4 if score lobbygametime mck_temp 
 execute if score lobby_loops mck_temp matches 3 if score lobbygametime mck_temp matches 201..1200 run bossbar set nl3 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"gold","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 2 if score lobbygametime mck_temp matches 201..1200 run bossbar set nl2 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"gold","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 1 if score lobbygametime mck_temp matches 201..1200 run bossbar set nl1 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"gold","bold":true,"separator":""}]
-
 
 execute if score lobby_loops mck_temp matches 9 if score lobbygametime mck_temp matches ..200 run bossbar set nl9 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"#DB4D37","bold":true,"separator":""}]
 execute if score lobby_loops mck_temp matches 8 if score lobbygametime mck_temp matches ..200 run bossbar set nl8 name [{"translate":"lobby.bossbar.status2","color":"gray", "bold": true},{"nbt":"time[]","storage":"time","interpret":true,"color":"#DB4D37","bold":true,"separator":""}]

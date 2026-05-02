@@ -2,7 +2,7 @@
     {
       "function": "minecraft:set_lore",
       "entity": "this",
-      "lore": [
+      "components": [
         {
           "text": ""
         },
@@ -26,4 +26,3 @@
       "replace": true
     }
   ]
-  

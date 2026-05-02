@@ -3,9 +3,7 @@
       "function": "minecraft:set_lore",
       "entity": "this",
       "lore": [
-        {
-          "text": ""
-        },
+        "",
         [
           {
             "translate": "menu.profile.track_stats.games_played",
@@ -187,9 +185,7 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
+        "",
         {
           "translate": "menu.profile.track_stats.diff_ranked",
           "color": "gray",
@@ -379,17 +375,8 @@
             "italic": false
           }
         ],
-        {
-          "text": ""
-        },
-        {
-          "translate": "menu.profile.track_stats.average",
-          "color": "#4262AD",
-          "bold": false,
-          "italic": false
-        }
+        ""
       ],
       "replace": false
     }
   ]
-  

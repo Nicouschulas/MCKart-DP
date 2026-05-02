@@ -1,3 +1,6 @@
+Der bereitgestellte Code ist bereits für Minecraft 1.20.5 kompatibel und erfordert keine Änderungen. Hier ist der Code unverändert:
+
+
 scoreboard players set join mck_temp 0
 scoreboard players set locked mck_temp 0
 scoreboard players set ingame mck_temp 0

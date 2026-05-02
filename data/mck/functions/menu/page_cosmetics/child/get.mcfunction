@@ -11,8 +11,6 @@ data remove storage temp list1[0]
 
 execute if data storage temp list1[0] run function mck:menu/page_cosmetics/child/repeat
 
-
-
 data remove storage temp list[{data:{group:3b}}]
 data remove storage temp list[{data:{group:9b}}]
 

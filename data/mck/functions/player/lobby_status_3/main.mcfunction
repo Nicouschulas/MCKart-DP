@@ -5,14 +5,12 @@ execute if score @s mck_finish_anim matches 160 run title @s times 0 20 0
 execute if score @s mck_finish_anim matches 160 run title @s subtitle {"translate":"race.finish.placing1","color":"white","bold":false,"italic":false}
 execute if score @s mck_finish_anim matches 160 run title @s title ""
 
-
 execute if score @s mck_finish_anim matches 157 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.122462
 execute if score @s mck_finish_anim matches 157 at @s run playsound minecraft:block.note_block.pling master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.122462
 
 execute if score @s mck_finish_anim matches 157 run title @s times 0 20 0
 execute if score @s mck_finish_anim matches 157 run title @s subtitle {"translate":"race.finish.placing2","color":"white","bold":false,"italic":false}
 execute if score @s mck_finish_anim matches 157 run title @s title ""
-
 
 execute if score @s mck_finish_anim matches 154 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.498307
 execute if score @s mck_finish_anim matches 154 at @s run playsound minecraft:block.note_block.pling master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.498307
@@ -21,7 +19,6 @@ execute if score @s mck_finish_anim matches 154 run title @s times 0 20 0
 execute if score @s mck_finish_anim matches 154 run title @s subtitle {"translate":"race.finish.placing3","color":"white","bold":false,"italic":false}
 execute if score @s mck_finish_anim matches 154 run title @s title ""
 
-
 execute if score @s mck_finish_anim matches 151 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.414214
 execute if score @s mck_finish_anim matches 151 at @s run playsound minecraft:block.note_block.pling master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.414214
 
@@ -29,14 +26,12 @@ execute if score @s mck_finish_anim matches 151 run title @s times 0 20 0
 execute if score @s mck_finish_anim matches 151 run title @s subtitle {"translate":"race.finish.placing4","color":"white","bold":false,"italic":false}
 execute if score @s mck_finish_anim matches 151 run title @s title ""
 
-
 execute if score @s mck_finish_anim matches 145 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.122462
 execute if score @s mck_finish_anim matches 145 at @s run playsound minecraft:block.note_block.pling master @s[scores={mck_setting1=1}] ~ ~ ~ 1 1.122462
 
 execute if score @s mck_finish_anim matches 145 run title @s times 0 20 0
 execute if score @s mck_finish_anim matches 145 run title @s subtitle {"translate":"race.finish.placing5","color":"white","bold":false,"italic":false}
 execute if score @s mck_finish_anim matches 145 run title @s title ""
-
 
 execute if score @s mck_finish_anim matches 139 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.840896
 execute if score @s mck_finish_anim matches 139 at @s run playsound minecraft:block.note_block.pling master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.840896
@@ -53,11 +48,6 @@ execute if score @s mck_finish_anim matches 139 if score @s mck_place matches 7 
 execute if score @s mck_finish_anim matches 139 if score @s mck_place matches 8 run title @s title [{"score":{"name":"@s","objective":"mck_place"},"color":"#d5ffc6","bold":true},{"text":"."}]
 execute if score @s mck_finish_anim matches 139 if score @s mck_place matches 9 run title @s title [{"score":{"name":"@s","objective":"mck_place"},"color":"#d75b43","bold":true},{"text":"."}]
 execute if score @s mck_finish_anim matches 139 if score @s mck_place matches 10.. run title @s title [{"score":{"name":"@s","objective":"mck_place"},"color":"#674b3d","bold":true},{"text":"."}]
-
-
-
-
-
 
 
 execute if score @s mck_finish_anim matches 100 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.529732
@@ -103,38 +93,11 @@ execute if score @s mck_finish_anim matches 92 if score time mck_time matches ..
 execute if score @s mck_finish_anim matches 92 if score time mck_time matches 0.. run title @s title [{"text": "+","color":"#7DCBFF","bold":false,"italic":false},{"nbt":"time[]","storage":"time","interpret":true,"separator":""}]
 
 
-
-
-
-
-
-
 execute if score @s mck_finish_anim matches 50 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.529732
 
 execute if score @s mck_finish_anim matches 50 run title @s times 0 20 0
 execute if score @s mck_finish_anim matches 50 run title @s subtitle {"translate":"race.finish.diff_wb1","color":"#EED869","bold":false,"italic":false}
 execute if score @s mck_finish_anim matches 50 run title @s title ""
-
-
-execute if score @s mck_finish_anim matches 48 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.529732
-
-execute if score @s mck_finish_anim matches 48 run title @s times 0 20 0
-execute if score @s mck_finish_anim matches 48 run title @s subtitle {"translate":"race.finish.diff_wb2","color":"#EED869","bold":false,"italic":false}
-execute if score @s mck_finish_anim matches 48 run title @s title ""
-
-
-execute if score @s mck_finish_anim matches 46 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.529732
-
-execute if score @s mck_finish_anim matches 46 run title @s times 0 20 0
-execute if score @s mck_finish_anim matches 46 run title @s subtitle {"translate":"race.finish.diff_wb3","color":"#EED869","bold":false,"italic":false}
-execute if score @s mck_finish_anim matches 46 run title @s title ""
-
-
-execute if score @s mck_finish_anim matches 44 at @s run playsound minecraft:block.note_block.bit master @s[scores={mck_setting1=1}] ~ ~ ~ 1 0.529732
-
-execute if score @s mck_finish_anim matches 44 run title @s times 0 20 0
-execute if score @s mck_finish_anim matches 44 run title @s subtitle {"translate":"race.finish.diff_wb4","color":"#EED869","bold":false,"italic":false}
-execute if score @s mck_finish_anim matches 44 run title @s title ""
 
 
 execute if score @s mck_finish_anim matches 42 store result score time mck_time run data get entity @s EnderItems[3].tag.best_time
@@ -149,12 +112,6 @@ execute if score @s mck_finish_anim matches 42 run title @s times 0 30 6
 execute if score @s mck_finish_anim matches 42 run title @s subtitle [{"translate":"race.finish.diff_wb4","color":"#EED869","bold":false,"italic":false}]
 execute if score @s mck_finish_anim matches 42 if score time mck_time matches ..-1 run title @s title [{"text": "","color":"#EE9588","bold":false,"italic":false},{"nbt":"time[]","storage":"time","interpret":true,"separator":""}]
 execute if score @s mck_finish_anim matches 42 if score time mck_time matches 0.. run title @s title [{"text": "+","color":"#7DCBFF","bold":false,"italic":false},{"nbt":"time[]","storage":"time","interpret":true,"separator":""}]
-
-
-
-
-
-
 
 
 execute if score @s mck_finish_anim matches 7 run title @s times 2 40 30

@@ -2,6 +2,8 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "nbt": "{Item: {tag:{killme:1b}}}"
+        "components": {
+            "Item.tag.killme": true
+        }
     }
-  }  
+}
