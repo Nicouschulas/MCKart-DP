@@ -1,7 +1,7 @@
 # MCKart: The Ultimate Racing Experience in Minecraft!
 
 ## **❓ What is MCKart?**
-**MCKart** is a racing minigame inspired by giants like **Mario Kart**, **Trackmania** and **SuperTuxKart**. Whether you are drifting through custom-built tracks or battling for the top spot in ranked mode, this plugin offers a **seamless, fast-paced racing experience** directly in Minecraft. Track your progress, **unlock rewards**, cosmetics and more, and dominate the leaderboards!
+**MCKart** is a racing minigame inspired by giants like **Mario Kart**, **Trackmania** and **SuperTuxKart**. Whether you are drifting through custom-built tracks or battling for the top spot in ranked mode, this datapack offers a **seamless, fast-paced racing experience** directly in Minecraft. Track your progress, **unlock rewards**, cosmetics and more, and dominate the leaderboards!
 
 [[Watch the trailer here!]](https://www.youtube.com/watch?v=LeFdWOlaAY4)
 
@@ -40,7 +40,7 @@ MCKart features **Custom Texts** that automatically adapt to each player's indiv
 - Russian (text only)
 
 ## **📆 Planned features:**
-- update to 1.20.5/6
+- update to 1.20.5/6 (currently WIP)
 - update to 1.21.x
 - update to 26.x
 
