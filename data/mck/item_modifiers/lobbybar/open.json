@@ -30,6 +30,6 @@
         "text": ""
       }
     ],
-    "replace": true
+    "mode": "replace_all"
   }
 ]

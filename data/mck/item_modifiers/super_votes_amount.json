@@ -48,6 +48,6 @@
         }
       ]
     ],
-    "replace": false
+    "mode": "append"
   }
 ]

@@ -23,6 +23,6 @@
           "interpret": true
         }
       ],
-      "replace": true
+      "mode": "replace_all"
     }
   ]

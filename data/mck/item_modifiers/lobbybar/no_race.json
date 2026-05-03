@@ -1,6 +1,6 @@
 [
     {
-      "function": "minecraft:set_nbt",
+      "function": "minecraft:set_components",
       "tag": "{CustomModelData:140}"
     },
     {
@@ -22,6 +22,6 @@
             "text": ""
         }
       ],
-      "replace": true
+      "mode": "replace_all"
     }
   ]

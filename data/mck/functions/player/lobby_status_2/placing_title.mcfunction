@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "mode": "append",
   "functions": {
     "mck_place_1": {
       "commands": [

@@ -367,6 +367,6 @@
           "italic": false
         }
       ],
-      "replace": false
+      "mode": "append"
     }
   ]

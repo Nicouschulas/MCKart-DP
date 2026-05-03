@@ -1,6 +1,6 @@
 [
     {
-      "function": "minecraft:copy_nbt",
+      "function": "minecraft:copy_components",
       "source": {
         "type": "minecraft:storage",
         "name": "minecraft:databases"

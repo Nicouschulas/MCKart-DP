@@ -1,6 +1,6 @@
 [
   {
-    "function": "minecraft:set_nbt",
+    "function": "minecraft:set_components",
     "tag": "{menu:1b}"
   },
   {
@@ -17,6 +17,6 @@
         "italic": true
       }
     ],
-    "replace": true
+    "mode": "replace_all"
   }
 ]

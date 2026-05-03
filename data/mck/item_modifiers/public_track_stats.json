@@ -152,6 +152,6 @@
           }
         ]
       ],
-      "replace": false
+      "mode": "append"
     }
   ]

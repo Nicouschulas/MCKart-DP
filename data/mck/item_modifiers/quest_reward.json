@@ -10,7 +10,7 @@
           "italic": false
         }
       ],
-      "replace": true
+      "mode": "replace_all"
     },
     {
       "function": "minecraft:set_name",

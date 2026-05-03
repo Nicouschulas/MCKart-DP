@@ -148,6 +148,6 @@
         ],
         ""
       ],
-      "replace": false
+      "mode": "append"
     }
   ]
