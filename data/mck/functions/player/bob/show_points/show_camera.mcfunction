@@ -1,2 +1,2 @@
 data modify entity @s Pos set from storage bob show.cameradata  
-execute if data storage bob show.cameradata at @s run particle minecraft:block_marker barrel ~0.5 ~0.5 ~0.5 0 0 0 0 1 force @a[scores={mck_status=-72}]
+execute if data storage bob show.cameradata at @s run particle minecraft:block_marker{block_state:{Name:"minecraft:barrel"}} ~0.5 ~0.5 ~0.5 0 0 0 0 1 force @a[scores={mck_status=-72}]

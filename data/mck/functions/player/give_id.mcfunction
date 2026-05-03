@@ -10,7 +10,7 @@ item replace entity @s enderchest.0 with paper
 item replace entity @s enderchest.1 with player_head
 item replace entity @s enderchest.2 with paper
 item replace entity @s enderchest.3 with paper
-item replace entity @s enderchest.5 with chest{player_goods:[]}
+item replace entity @s enderchest.5 with chest[custom_data={player_goods:[]}]
 
 item replace entity @s enderchest.25 with air
 item replace entity @s enderchest.26 with air
@@ -34,8 +34,8 @@ scoreboard players set @s mck_scene 1
 
 scoreboard players reset @s mck_force_reset
 
-xp set @s 0 levels
-xp set @s 0 points
+experience set @s 0 levels
+experience set @s 0 points
 
 team join rank0 @s
 function mck:player/stats/create
