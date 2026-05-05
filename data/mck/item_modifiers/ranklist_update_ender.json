@@ -1,16 +1,16 @@
 [
-    {
-      "function": "minecraft:copy_components",
-      "source": {
-        "type": "minecraft:storage",
-        "name": "minecraft:databases"
-      },
-      "ops": [
-        {
-          "source": "input.data.stats",
-          "target": "stats",
-          "op": "merge"
-        }
-      ]
-    }
-  ]
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:databases"
+    },
+    "ops": [
+      {
+        "source": "input.data.stats",
+        "target": "stats",
+        "op": "merge"
+      }
+    ]
+  }
+]

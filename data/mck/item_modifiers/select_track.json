@@ -1,16 +1,16 @@
 [
-    {
-      "function": "minecraft:copy_components",
-      "source": {
-        "type": "minecraft:storage",
-        "source": "minecraft:temp"
-      },
-      "ops": [
-        {
-          "source": "cups[0][0].components.display.Name",
-          "target": "track_selected",
-          "op": "replace"
-        }
-      ]
-    }
-  ]
+  {
+    "function": "minecraft:copy_components",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:temp"
+    },
+    "ops": [
+      {
+        "source": "cups[0][0].components.\"minecraft:custom_name\"",
+        "target": "track_selected",
+        "op": "replace"
+      }
+    ]
+  }
+]

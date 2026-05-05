@@ -1,11 +1,13 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "entity": "this",
-      "name": {
-        "nbt": "components:[{text:\"\",storage:\"minecraft:temp\"}]",
-        "interpret": true,
-        "separator": " "
-      }
-    }
-  ]
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "storage": "minecraft:temp",
+      "nbt": "components",
+      "interpret": true,
+      "separator": " "
+    },
+    "target": "custom_name"
+  }
+]

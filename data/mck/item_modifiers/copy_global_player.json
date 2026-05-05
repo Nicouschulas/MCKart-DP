@@ -3,18 +3,23 @@
     "function": "minecraft:copy_components",
     "source": {
       "type": "minecraft:storage",
-      "name": "minecraft:temp"
+      "target": "minecraft:temp"
     },
     "ops": [
       {
         "source": "players[0].SkullOwner",
-        "target": "SkullOwner",
+        "target": "profile",
         "op": "merge"
       },
       {
-        "source": "players[0].display",
-        "target": "display",
-        "op": "merge"
+        "source": "players[0].display.Name",
+        "target": "custom_name",
+        "op": "replace"
+      },
+      {
+        "source": "players[0].display.Lore",
+        "target": "lore",
+        "op": "replace"
       }
     ]
   }

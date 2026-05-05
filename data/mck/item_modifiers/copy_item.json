@@ -1,16 +1,16 @@
 [
-    {
-      "function": "minecraft:copy_components",
-      "source": {
-        "type": "minecraft:storage",
-        "source": "minecraft:temp"
-      },
-      "ops": [
-        {
-          "source": "custommodeldata",
-          "target": "CustomModelData",
-          "op": "replace"
-        }
-      ]
-    }
-  ]
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:temp"
+    },
+    "ops": [
+      {
+        "source": "custommodeldata",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  }
+]

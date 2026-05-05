@@ -1,6 +1,10 @@
 [
-    {
-      "function": "minecraft:set_components",
-      "tag": "{track_selected:'{\"translate\":\"lobby.selected_track.none\",\"color\":\"gray\",\"bold\":true}'}"
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "track_selected": "{\"translate\":\"lobby.selected_track.none\",\"color\":\"gray\",\"bold\":true}"
+      }
     }
-  ]
+  }
+]

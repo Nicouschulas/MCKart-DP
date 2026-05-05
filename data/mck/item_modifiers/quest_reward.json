@@ -1,42 +1,42 @@
 [
-    {
-      "function": "minecraft:set_lore",
-      "entity": "this",
-      "components": [
-        {
-          "translate": "menu.page.challenges.click",
-          "color": "#FFFDD1",
-          "bold": false,
-          "italic": false
-        }
-      ],
-      "mode": "replace_all"
-    },
-    {
-      "function": "minecraft:set_name",
-      "entity": "this",
-      "components": [
-        {
-          "translate": "menu.page.challenges.reward",
-          "color": "#FFEB99",
-          "bold": true,
-          "italic": false
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "menu.page.challenges.click",
+        "color": "#FFFDD1",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "translate": "menu.page.challenges.reward",
+        "color": "#FFEB99",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "score": {
+          "name": "temp",
+          "objective": "mck_temp"
         },
-        {
-          "score": {
-            "name": "temp",
-            "objective": "mck_temp"
-          },
-          "color": "gold",
-          "bold": true,
-          "italic": false
-        },
-        {
-          "text": " \uaae0",
-          "color": "white",
-          "bold": false,
-          "italic": false
-        }
-      ]
-    }
-  ]
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": " ꫠ",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  }
+]

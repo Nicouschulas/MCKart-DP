@@ -1,17 +1,17 @@
 [
-    {
-      "function": "minecraft:set_lore",
-      "entity": "this",
-      "components": [
-        [
-          {
-            "translate": "menu.page.cosmetics.selected",
-            "color": "#B2FF91",
-            "bold": false,
-            "italic": true
-          }
-        ]
-      ],
-      "mode": "append"
-    }
-  ]
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "translate": "menu.page.cosmetics.selected",
+          "color": "#B2FF91",
+          "bold": false,
+          "italic": true
+        }
+      ]
+    ],
+    "mode": "append"
+  }
+]
