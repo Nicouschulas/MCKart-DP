@@ -1,9 +1,9 @@
 [
   {
-    "function": "minecraft:copy_components",
+    "function": "minecraft:copy_custom_data",
     "source": {
       "type": "minecraft:storage",
-      "target": "minecraft:temp"
+      "source": "minecraft:temp"
     },
     "ops": [
       {

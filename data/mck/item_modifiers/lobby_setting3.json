@@ -1,15 +1,16 @@
 [
   {
     "function": "minecraft:set_components",
-    "tag": "{CustomModelData:118}",
+    "components": {
+      "minecraft:custom_model_data": 118
+    },
     "conditions": [
       {
         "condition": "minecraft:value_check",
         "value": {
           "type": "minecraft:score",
           "target": "this",
-          "score": "mck_lobby_setting3",
-          "scale": 1
+          "score": "mck_lobby_setting3"
         },
         "range": 0
       }
@@ -17,7 +18,7 @@
   },
   {
     "function": "minecraft:set_name",
-    "entity": "this",
+    "target": "this",
     "name": [
       {
         "translate": "lobby.setting3.name",
@@ -50,8 +51,7 @@
         "value": {
           "type": "minecraft:score",
           "target": "this",
-          "score": "mck_lobby_setting3",
-          "scale": 1
+          "score": "mck_lobby_setting3"
         },
         "range": 0
       }
@@ -59,7 +59,7 @@
   },
   {
     "function": "minecraft:set_name",
-    "entity": "this",
+    "target": "this",
     "name": [
       {
         "translate": "lobby.setting3.name",
@@ -92,8 +92,7 @@
         "value": {
           "type": "minecraft:score",
           "target": "this",
-          "score": "mck_lobby_setting3",
-          "scale": 1
+          "score": "mck_lobby_setting3"
         },
         "range": 1
       }

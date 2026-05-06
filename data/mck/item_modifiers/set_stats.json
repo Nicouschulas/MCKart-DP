@@ -1,11 +1,11 @@
 [
   {
-    "function": "minecraft:set_components",
+    "function": "minecraft:set_custom_data",
     "tag": "{menu:1b,killme:1b}"
   },
   {
     "function": "minecraft:set_name",
-    "entity": "this",
+    "target": "this",
     "name": [
       {
         "selector": "@s",

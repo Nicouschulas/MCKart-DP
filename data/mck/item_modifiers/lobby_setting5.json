@@ -1,7 +1,9 @@
 [
   {
     "function": "minecraft:set_components",
-    "tag": "{CustomModelData:139}",
+    "components": {
+      "minecraft:custom_model_data": 139
+    },
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -17,7 +19,7 @@
   },
   {
     "function": "minecraft:set_name",
-    "entity": "this",
+    "target": "this",
     "name": [
       {
         "translate": "lobby.setting5.name",
@@ -59,7 +61,7 @@
   },
   {
     "function": "minecraft:set_name",
-    "entity": "this",
+    "target": "this",
     "name": [
       {
         "translate": "lobby.setting5.name",

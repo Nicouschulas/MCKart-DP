@@ -1,27 +1,29 @@
 [
-    {
-      "function": "minecraft:set_components",
-      "tag": "{CustomModelData:140}"
-    },
-    {
-      "function": "minecraft:set_lore",
-      "entity": "this",
-      "lore": [
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_model_data": 140
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": ""
+      },
+      [
         {
-          "text": ""
-        },
-        [
-          {
-            "translate": "menu.page.spectate.no_race",
-            "color": "#DB7F7F",
-            "bold": false,
-            "italic": false
-          }
-        ],
-        {
-            "text": ""
+          "translate": "menu.page.spectate.no_race",
+          "color": "#DB7F7F",
+          "bold": false,
+          "italic": false
         }
       ],
-      "mode": "replace_all"
-    }
-  ]
+      {
+        "text": ""
+      }
+    ],
+    "mode": "replace_all"
+  }
+]
