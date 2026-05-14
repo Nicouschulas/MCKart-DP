@@ -23,7 +23,7 @@
 
 **Item Boxes**: Collect power-ups during the race to gain items
 
-## 🛡️ **Commands & Permissions:**
+## 🛡️ **Commands:**
 `/scoreboard players set @s mck_permission 3` | Make yourself admin to customize settings
 
 `/function admin:unlock_all_cosmetics` | Instantly access all skins and items
