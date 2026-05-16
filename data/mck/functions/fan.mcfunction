@@ -1,1 +1,1 @@
-execute positioned ~3 ~ ~3 run particle minecraft:cloud ~ ~ ~ 1.5 8 1.5 0.05 30 force @a{nbt={Item:{components:[{type:"minecraft:generic.movement_speed",amount:0.1,operation:"add_value",uuid:[I;0,0,0,0],slot:"HEAD"}]}}}
+execute positioned ~3 ~ ~3 run particle minecraft:cloud ~ ~ ~ 1.5 8 1.5 0.05 30 force @a[nbt={Item:{components:{"minecraft:attribute_modifiers":[{type:"minecraft:generic.movement_speed",amount:0.1,operation:"add_value",uuid:[I;0,0,0,0],slot:"head"}]}}}]
