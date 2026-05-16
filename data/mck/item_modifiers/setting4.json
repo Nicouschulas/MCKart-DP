@@ -1,117 +1,129 @@
-[
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 158
+{
+  "function": "minecraft:sequence",
+  "terms": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_model_data": 158
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "this"
+            },
+            "score": "mck_setting4"
+          },
+          "range": 0
+        }
+      ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:value_check",
-        "value": {
-          "type": "minecraft:score",
-          "target": "this",
-          "score": "mck_setting4"
+    {
+      "function": "minecraft:set_name",
+      "target": "this",
+      "name": [
+        {
+          "translate": "settings4.name",
+          "color": "white",
+          "bold": false,
+          "italic": false
         },
-        "range": 0
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "target": "this",
-    "name": [
-      {
-        "translate": "settings4.name",
-        "color": "white",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "text": " [",
-        "color": "gray",
-        "bold": true,
-        "italic": false
-      },
-      {
-        "translate": "settings4.option2",
-        "color": "red",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "text": "]",
-        "color": "gray",
-        "bold": true,
-        "italic": false
-      }
-    ],
-    "conditions": [
-      {
-        "condition": "minecraft:value_check",
-        "value": {
-          "type": "minecraft:score",
-          "target": "this",
-          "score": "mck_setting4"
+        {
+          "text": " [",
+          "color": "gray",
+          "bold": true,
+          "italic": false
         },
-        "range": 0
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "target": "this",
-    "name": [
-      {
-        "translate": "settings4.name",
-        "color": "white",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "text": " [",
-        "color": "gray",
-        "bold": true,
-        "italic": false
-      },
-      {
-        "translate": "settings4.option1",
-        "color": "green",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "text": "]",
-        "color": "gray",
-        "bold": true,
-        "italic": false
-      }
-    ],
-    "conditions": [
-      {
-        "condition": "minecraft:value_check",
-        "value": {
-          "type": "minecraft:score",
-          "target": "this",
-          "score": "mck_setting4"
+        {
+          "translate": "settings4.option2",
+          "color": "red",
+          "bold": false,
+          "italic": false
         },
-        "range": 1
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_lore",
-    "entity": "this",
-    "lore": [
-      {
-        "text": " "
-      },
-      {
-        "translate": "settings4.lore",
-        "color": "gray",
-        "bold": false,
-        "italic": false
-      }
-    ],
-    "mode": "replace_all"
-  }
-]
+        {
+          "text": "]",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "this"
+            },
+            "score": "mck_setting4"
+          },
+          "range": 0
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_name",
+      "target": "this",
+      "name": [
+        {
+          "translate": "settings4.name",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": " [",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "translate": "settings4.option1",
+          "color": "green",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "]",
+          "color": "gray",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "this"
+            },
+            "score": "mck_setting4"
+          },
+          "range": 1
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": " "
+        },
+        {
+          "translate": "settings4.lore",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "mode": "replace_all"
+    }
+  ]
+}

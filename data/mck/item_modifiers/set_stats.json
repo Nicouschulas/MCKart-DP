@@ -1,41 +1,44 @@
-[
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{menu:1b,killme:1b}"
-  },
-  {
-    "function": "minecraft:set_name",
-    "target": "this",
-    "name": [
-      {
-        "selector": "@s",
-        "color": "gold",
-        "bold": true,
-        "italic": false
-      },
-      {
-        "translate": "menu.short_profile.lvl",
-        "color": "#FFEBC4",
-        "bold": false,
-        "italic": false
-      },
-      {
-        "nbt": "XpLevel",
-        "entity": "@s",
-        "color": "#FFCE85",
-        "bold": true,
-        "italic": false
-      },
-      {
-        "text": " ✪",
-        "color": "#FFEBC4",
-        "bold": false,
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:reference",
-    "name": "mck:short_profile"
-  }
-]
+{
+  "function": "minecraft:sequence",
+  "terms": [
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{menu:1b,killme:1b}"
+    },
+    {
+      "function": "minecraft:set_name",
+      "target": "this",
+      "name": [
+        {
+          "selector": "@s",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "translate": "menu.short_profile.lvl",
+          "color": "#FFEBC4",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "nbt": "XpLevel",
+          "entity": "@s",
+          "color": "#FFCE85",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " ✪",
+          "color": "#FFEBC4",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "mck:short_profile"
+    }
+  ]
+}
